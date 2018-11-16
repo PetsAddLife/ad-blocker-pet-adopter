@@ -512,7 +512,7 @@ var cosmeticFilterMapper = (function() {
         for ( entry of (details.declarative || []) ) {
             for ( selector of entry[0].split(',\n') ) {
                 canonical = selector;
-                if ( entry[1] !== 'display:none!important;' ) {
+                if ( entry[1] !== 'visibility:hidden!important;' ) {
                     canonical += ':style(' + entry[1] + ')';
                 }
                 if ( reHasCSSCombinators.test(selector) ) {

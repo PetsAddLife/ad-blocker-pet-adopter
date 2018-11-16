@@ -182,7 +182,7 @@ let handlers = {
             logNow = [];
         for ( let entry of (changes.declarative || []) ) {
             for ( let selector of entry[0].split(',\n') ) {
-                if ( entry[1] !== 'display:none!important;' ) {
+                if ( entry[1] !== 'visibility:hidden!important;' ) {
                     logNow.push(selector + ':style(' + entry[1] + ')');
                     continue;
                 }
