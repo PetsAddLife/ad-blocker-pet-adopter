@@ -1,5 +1,5 @@
 {
-  "author": "All uBlock Origin contributors",
+  "author": "Pets Add Life",
   "background": {
     "page": "background.html"
   },
@@ -8,7 +8,7 @@
       "16": "img/icon_16.png",
       "32": "img/icon_32.png"
     },
-    "default_title": "uBlock Origin",
+    "default_title": "Ad Blocker Pet Adopter",
     "default_popup": "popup.html"
   },
   "commands": {
@@ -59,7 +59,10 @@
   "incognito": "split",
   "manifest_version": 2,
   "minimum_chrome_version": "51.0",
-  "name": "uBlock Origin",
+  "name": "Ad Blocker Pet Adopter",
+  "optional_permissions": [
+    "file:///*"
+  ],
   "options_ui": {
     "page": "dashboard.html",
     "open_in_tab": true
@@ -75,7 +78,7 @@
     "webRequestBlocking",
     "<all_urls>"
   ],
-  "short_name": "uBlock₀",
+  "short_name": "PetsBlockAds",
   "storage": {
     "managed_schema": "managed_storage.json"
   },
