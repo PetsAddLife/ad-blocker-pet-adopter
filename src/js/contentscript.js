@@ -187,6 +187,7 @@ vAPI.domWatcher = (function() {
         listenerIterator = [], listenerIteratorDirty = false,
         removedNodeLists = [],
         removedNodes = false,
+        removedNodes2 = [],
         safeObserverHandlerTimer;
 
     var safeObserverHandler = function() {
@@ -208,22 +209,25 @@ vAPI.domWatcher = (function() {
         }
         addedNodeLists.length = 0;
         i = removedNodeLists.length;
-        while ( i-- && removedNodes === false ) {
+        j = removedNodes2.length;
+        while ( i-- ) {
             nodeList = removedNodeLists[i];
             iNode = nodeList.length;
             while ( iNode-- ) {
-                if ( nodeList[iNode].nodeType !== 1 ) { continue; }
-                removedNodes = true;
-                break;
+                node = nodeList[iNode];
+                if ( node.nodeType !== 1 ) { continue; }
+                removedNodes2[j++] = node;
             }
         }
+        removedNodes = removedNodes2.length > 0;
         removedNodeLists.length = 0;
         //console.timeEnd('dom watcher/safe observer handler');
         if ( addedNodes.length === 0 && removedNodes === false ) { return; }
         for ( var listener of getListenerIterator() ) {
-            listener.onDOMChanged(addedNodes, removedNodes);
+            listener.onDOMChanged(addedNodes, removedNodes, removedNodes2);
         }
         addedNodes.length = 0;
+        removedNodes2.length = 0;
         removedNodes = false;
     };
 
