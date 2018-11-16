@@ -157,7 +157,7 @@ var handlers = {
             logNow = [];
         for ( entry of (changes.declarative || []) ) {
             for ( selector of entry[0].split(',\n') ) {
-                if ( entry[1] === 'display:none!important;' ) {
+                if ( entry[1] === 'visibility:hidden!important;' ) {
                     if ( reHasPseudoClass.test(selector) ) {
                         sanitized = selector.replace(reHasPseudoClass, '');
                         sanitizedSelectors.set(sanitized, selector);

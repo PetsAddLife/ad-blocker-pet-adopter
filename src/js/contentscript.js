@@ -550,7 +550,7 @@ vAPI.DOMFilterer = (function() {
                 if ( o.pseudoclass ) {
                     this.domFilterer.addCSSRule(
                         o.raw,
-                        'display:none!important;'
+                        'visibility:hidden!important;'
                     );
                     mustCommit = true;
                     continue;
@@ -1021,7 +1021,7 @@ vAPI.domSurveyor = (function() {
             if ( Array.isArray(selectors) && selectors.length !== 0 ) {
                 domFilterer.addCSSRule(
                     selectors,
-                    'display:none!important;',
+                    'visibility:hidden!important;',
                     { type: 'simple' }
                 );
                 mustCommit = true;
@@ -1030,7 +1030,7 @@ vAPI.domSurveyor = (function() {
             if ( Array.isArray(selectors) && selectors.length !== 0 ) {
                 domFilterer.addCSSRule(
                     selectors,
-                    'display:none!important;',
+                    'visibility:hidden!important;',
                     { type: 'complex' }
                 );
                 mustCommit = true;
@@ -1039,7 +1039,7 @@ vAPI.domSurveyor = (function() {
             if ( typeof selectors === 'string' && selectors.length !== 0 ) {
                 domFilterer.addCSSRule(
                     selectors,
-                    'display:none!important;',
+                    'visibility:hidden!important;',
                     { injected: true }
                 );
                 mustCommit = true;
@@ -1345,21 +1345,21 @@ vAPI.domSurveyor = (function() {
                 cfeDetails.hideNodeStyleSheetInjected === true;
             domFilterer.addCSSRule(
                 cfeDetails.declarativeFilters,
-                'display:none!important;'
+                'visibility:hidden!important;'
             );
             domFilterer.addCSSRule(
                 cfeDetails.highGenericHideSimple,
-                'display:none!important;',
+                'visibility:hidden!important;',
                 { type: 'simple', lazy: true }
             );
             domFilterer.addCSSRule(
                 cfeDetails.highGenericHideComplex,
-                'display:none!important;',
+                'visibility:hidden!important;',
                 { type: 'complex', lazy: true }
             );
             domFilterer.addCSSRule(
                 cfeDetails.injectedHideFilters,
-                'display:none!important;',
+                'visibility:hidden!important;',
                 { injected: true }
             );
             domFilterer.addProceduralSelectors(cfeDetails.proceduralFilters);
