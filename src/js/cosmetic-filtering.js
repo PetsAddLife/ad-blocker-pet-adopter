@@ -1150,7 +1150,7 @@ FilterContainer.prototype.retrieveGenericSelectors = function(request) {
         }
         out.injected = injected.join(',\n');
         vAPI.insertCSS(request.tabId, {
-            code: out.injected + '\n{display:none!important;}',
+            code: out.injected + '\n{visibility:hidden;}',
             cssOrigin: 'user',
             frameId: request.frameId,
             runAt: 'document_start'
@@ -1398,11 +1398,11 @@ FilterContainer.prototype.retrieveSpecificSelectors = function(
             runAt: 'document_start'
         };
         if ( out.injectedHideFilters.length !== 0 ) {
-            details.code = out.injectedHideFilters + '\n{display:none!important;}';
+            details.code = out.injectedHideFilters + '\n{visibility:hidden;}';
             vAPI.insertCSS(request.tabId, details);
         }
         if ( out.networkFilters.length !== 0 ) {
-            details.code = out.networkFilters + '\n{display:none!important;}';
+            details.code = out.networkFilters + '\n{visibility:hidden;}';
             vAPI.insertCSS(request.tabId, details);
             out.networkFilters = '';
         }
