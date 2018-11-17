@@ -30,8 +30,10 @@
               |                  +-- domSurveyor
               |                  |
               +--> domFilterer --+-- domLogger
-                                 |
-                                 +-- domInspector
+              |                  |
+              |                  +-- domInspector
+              |                  |
+              +------------------+-- domPetAdopter
 
   domWatcher:
     Watches for changes in the DOM, and notify the other components about these
@@ -51,6 +53,10 @@
     Surveys the page to find and report the injected cosmetic filters blocking
     actual elements on the current page. This component is dynamically loaded
     IF AND ONLY IF uBO's logger is opened.
+
+  domPetAdopter:
+    Listens to updates to the dom and comsmetic filters in order to overlay
+    custom pet messaging in the space where ads would have appeared otherwise.
 
   If page is whitelisted:
     - domWatcher: off
@@ -1265,6 +1271,165 @@ vAPI.domSurveyor = (function() {
         start: start
     };
 })();
+
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+
+vAPI.domPetAdopter = (function() {
+    var declarativeRules = new Set(),
+        proceduralRules = new Set(),
+        adNodes = new Set(),
+        palNodes = new Set();
+
+    vAPI.domFilterer.addListener({
+        onFiltersetChanged: function(changes) {
+            var dRules = [],
+                pRules = [];
+            
+            if (changes.declarative) {
+                dRules = changes.declarative
+                    .filter(function(change) {
+                        return change[1] === 'visibility:hidden!important;';
+                    })
+                    .map(function(change) {
+                        return change[0];
+                    });
+                
+                dRules.forEach(function(rule) {
+                    declarativeRules.add(rule);
+                });
+            }
+
+            if (changes.procedural) {
+                pRules = changes.procedural;
+
+                pRules.forEach(function(rule) {
+                    proceduralRules.add(rule);
+                });
+            }
+
+            updateDom(dRules, pRules);
+        }
+    });
+
+    vAPI.domWatcher.addListener({
+        onDOMChanged: function(addedNodes, removedNodes, removedNodes2) {
+            updateDom(declarativeRules, proceduralRules, addedNodes, removedNodes2);
+        },
+        onDOMCreated: function() {
+            updateDom(declarativeRules, proceduralRules);
+        }
+    });
+
+    function updateDom(dRules, pRules, addedNodes, removedNodes) {
+        addedNodes = addedNodes || [];
+        removedNodes = removedNodes || [];
+
+        dRules.forEach(function(rule) {
+            var nodes = document.querySelectorAll(rule);
+            maybeInsertPetNode(nodes);
+        });
+
+        pRules.forEach(function(rule) {
+            var nodes = rule.exec();
+            maybeInsertPetNode(nodes);
+        });
+
+        if (removedNodes.length > 0) {
+            removedNodes.forEach(function(node) {
+                if (palNodes.has(node) && node.palParent) {
+                    // re-append node
+                    node.palParent.appendChild(node);
+                }
+            });
+        }
+    }
+
+    function maybeInsertPetNode(nodes) {
+        for (var node of nodes) {
+            if (adNodes.has(node)) continue;
+
+            // skip ad nodes nested in other ad nodes
+            if (Array.from(adNodes).some(function(pettedNode) {
+                return pettedNode.contains(node);
+            })) {
+                adNodes.add(node);
+                continue;
+            }
+
+            // check ad node is big enough to contain pal ad
+            var nodeStyle = window.getComputedStyle(node, null);
+            if (window.parseInt(nodeStyle.width) - window.parseInt(nodeStyle.paddingLeft) - window.parseInt(nodeStyle.paddingRight) < 100 ||
+                window.parseInt(nodeStyle.height) - window.parseInt(nodeStyle.paddingTop) - window.parseInt(nodeStyle.paddingBottom) < 100
+            ) {
+                // too small, so hide it
+                node.setAttribute('style', 'display:none!important;');
+                adNodes.add(node);
+                console.log('insert pal node too small');
+                continue;
+            }
+            console.log('insert pal node');
+
+            insertPetNode(node);
+            adNodes.add(node);
+        }
+    }
+
+    function insertPetNode(parent) {
+        var node = createPetNode();
+
+        if (window.getComputedStyle(parent, null).getPropertyValue('position') == 'static') {
+            parent.style.position = 'relative';
+        }
+
+        parent.appendChild(node);
+        node.palParent = parent;
+        palNodes.add(node);
+    }
+
+    function createPetNode() {
+        var outerNode = document.createElement('div');
+        outerNode.setAttribute('style', [
+            'visibility: visible',
+            'position: absolute',
+            'top: 0',
+            'left: 0',
+            'width: 100%',
+            'height: 100%',
+            // account for padding in parent node
+            'padding: inherit',
+            'box-sizing: border-box'
+        ].join(';'));
+
+        var innerNode = document.createElement('a');
+        innerNode.setAttribute('style', [
+            'position: relative',
+            'display: block',
+            'width: 100%',
+            'height: 100%',
+            'background-size: contain',
+            'background-position: center bottom',
+            'background-repeat: no-repeat',
+            'background-color: #e6f8ff'
+        ].join(';'));
+        innerNode.setAttribute('href', 'https://petsaddlife.org/');
+        innerNode.setAttribute('target', '_blank');
+
+        vAPI.messaging.send('contentscript', {
+            what: 'retrievePetAsset'
+        }, function(response) {
+            innerNode.style.backgroundImage = 'url("' + response.dataUrl + '")';
+        });
+
+        outerNode.appendChild(innerNode);
+
+        return outerNode;
+    }
+
+    return {};
+})();
+
 
 /******************************************************************************/
 /******************************************************************************/
