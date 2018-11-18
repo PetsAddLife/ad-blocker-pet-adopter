@@ -90,17 +90,19 @@ const µBlock = (function() { // jshint ignore:line
             showIconBadge: true,
             tooltipsDisabled: false,
             webrtcIPAddressHidden: false,
-            petAdopterLocation: '90210',
-            petAdopterAnimals: [
-                'barnyard',
-                'bird',
-                'cat',
-                'dog',
-                'horse',
-                'reptile',
-                'smallfurry',
-                'rabbit'
-            ]
+            petAdopter: {
+                location: '90210',
+                animals: [
+                    'barnyard',
+                    'bird',
+                    'cat',
+                    'dog',
+                    'horse',
+                    'reptile',
+                    'smallfurry',
+                    'rabbit'
+                ]
+            }
         },
 
         hiddenSettingsDefault: hiddenSettingsDefault,
