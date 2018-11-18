@@ -257,6 +257,11 @@ var onUserSettingsReady = function(fetched) {
     if ( µb.firstInstall && vAPI.webextFlavor.soup.has('mobile') ) {
         userSettings.ignoreGenericCosmeticFilters = true;
     }
+
+    // show dashboard on first install
+    if (µb.firstInstall) {
+        chrome.tabs.create({url: "dashboard.html"});
+    }
 };
 
 /******************************************************************************/
