@@ -203,6 +203,11 @@ var onUserSettingsReady = function(fetched) {
     if ( µb.firstInstall && vAPI.battery ) {
         userSettings.ignoreGenericCosmeticFilters = true;
     }
+
+    // show dashboard on first install
+    if (µb.firstInstall) {
+        chrome.tabs.create({url: "dashboard.html"});
+    }
 };
 
 /******************************************************************************/
