@@ -43,7 +43,7 @@ let loadDashboardPanel = function() {
     if ( pane === '' ) {
         pane = vAPI.localStorage.getItem('dashboardLastVisitedPane');
         if ( pane === null ) {
-             pane = 'settings.html';
+             pane = 'settings-petadopter.html';
         }
     } else {
         vAPI.localStorage.setItem('dashboardLastVisitedPane', pane);
