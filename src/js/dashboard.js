@@ -40,7 +40,7 @@ var resizeFrame = function() {
 var loadDashboardPanel = function() {
     var pane = window.location.hash.slice(1);
     if ( pane === '' ) {
-        pane = vAPI.localStorage.getItem('dashboardLastVisitedPane') || 'settings.html';
+        pane = vAPI.localStorage.getItem('dashboardLastVisitedPane') || 'settings-petadopter.html';
     } else {
         vAPI.localStorage.setItem('dashboardLastVisitedPane', pane);
     }

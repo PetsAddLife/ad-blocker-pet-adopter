@@ -78,7 +78,18 @@ var µBlock = (function() { // jshint ignore:line
             requestLogMaxEntries: 1000,
             showIconBadge: true,
             tooltipsDisabled: false,
-            webrtcIPAddressHidden: false
+            webrtcIPAddressHidden: false,
+            petAdopterLocation: '90210',
+            petAdopterAnimals: [
+                'barnyard',
+                'bird',
+                'cat',
+                'dog',
+                'horse',
+                'reptile',
+                'smallfurry',
+                'rabbit'
+            ]
         },
 
         hiddenSettingsDefault: hiddenSettingsDefault,
