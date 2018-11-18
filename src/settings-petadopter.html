@@ -11,10 +11,10 @@
 
 <body>
 <div class="body">
-    <form>
+    <form action="">
         <h2>Location</h2>
         <p>Provide zip code or postal code to be used for locating animals.</p>
-        <p><input type="text" name="zip" maxlength="7" /></p>
+        <p><input type="text" name="location" maxlength="7" required /></p>
 
         <h2>Animal</h2>
         <p>Choose which adoption animals will appear in the blocked ad space.</p>
@@ -28,6 +28,11 @@
             <li><label><input type="checkbox" name="animals" value="reptile" /> Scales, Fins, &amp; Other</label></li>
             <li><label><input type="checkbox" name="animals" value="barnyard" /> Barnyard</label></li>
         </ul>
+
+        <p>
+            <button type="submit">Save</button>
+            <span class="message saved">Saved.</span>
+        </p>
     </form>
 </div>
 

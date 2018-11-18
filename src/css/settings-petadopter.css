@@ -14,3 +14,10 @@ p {
     margin-top: 0.5em;
     margin-bottom: 0;
 }
+
+.message.saved {
+    visibility: hidden;
+}
+.message.saved.active {
+    visibility: visible;
+}

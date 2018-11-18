@@ -375,6 +375,9 @@ var matchBucket = function(url, hostname, bucket, start) {
             vAPI.browserSettings.set({ 'webrtcIPAddress': !value });
         }
         break;
+    case 'petAdopter':
+        µBlock.petAdopter.assign(us.petAdopter);
+        break;
     default:
         break;
     }
