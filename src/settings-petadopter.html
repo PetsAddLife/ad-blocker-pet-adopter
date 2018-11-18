@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>uBlock — Settings</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/dashboard-common.css">
+<link rel="stylesheet" type="text/css" href="css/settings-petadopter.css">
+</head>
+
+<body>
+<div class="body">
+    <form>
+        <h2>Location</h2>
+        <p>Provide zip code or postal code to be used for locating animals.</p>
+        <p><input type="text" name="zip" maxlength="7" /></p>
+
+        <h2>Animal</h2>
+        <p>Choose which adoption animals will appear in the blocked ad space.</p>
+        <ul class="checklist">
+            <li><label><input type="checkbox" name="animals" value="dog" /> Dog</label></li>
+            <li><label><input type="checkbox" name="animals" value="cat" /> Cat</label></li>
+            <li><label><input type="checkbox" name="animals" value="rabbit" /> Rabbits</label></li>
+            <li><label><input type="checkbox" name="animals" value="smallfurry" /> Small &amp; Furry</label></li>
+            <li><label><input type="checkbox" name="animals" value="horse" /> Horses</label></li>
+            <li><label><input type="checkbox" name="animals" value="bird" /> Birds</label></li>
+            <li><label><input type="checkbox" name="animals" value="reptile" /> Scales, Fins, &amp; Other</label></li>
+            <li><label><input type="checkbox" name="animals" value="barnyard" /> Barnyard</label></li>
+        </ul>
+    </form>
+</div>
+
+<script src="js/vapi.js"></script>
+<script src="js/vapi-common.js"></script>
+<script src="js/vapi-client.js"></script>
+<script src="js/udom.js"></script>
+<script src="js/dashboard-common.js"></script>
+<script src="js/settings-petadopter.js"></script>
+
+</body>
+</html>
