@@ -52,34 +52,62 @@ var onUserSettingsReceived = function(details) {
     var zipCodeRegex = /^\d{5}$/;
     var postalCodeRegex = /^[ABCEGHJ-NPRSTVXY][0-9][ABCEGHJ-NPRSTV-Z][ ]?[0-9][ABCEGHJ-NPRSTV-Z][0-9]$/i;
 
-    uDom('[name="zip"]')
-        .val(details.petAdopterLocation)
+    var elAnimals = uDom('[name="animals"]');
+    var elMessageSaved = uDom('.message.saved').nodeAt(0);
+    var messageSavedTimeout = null;
+    var hasFormChanged = false;
+
+    uDom('[name="location"]')
+        .val(details.petAdopter.location)
+        // validate zip/postal code
         .on('input', function(e) {
             var elInput = e.target;
             var value = elInput.value.trim();
             var isValid = !value || zipCodeRegex.test(value) || postalCodeRegex.test(value);
+            var message = (isValid) ? '' : 'Please enter a valid zip code or postal code.';
 
-            if (isValid) {
-                changeUserSettings('petAdopterLocation', value);
-            }
+            elInput.setCustomValidity(message);
+
+            hasFormChanged = true;
         });
     
-    uDom('[name="animals"]').forEach(function(uNode) {
+    elAnimals.forEach(function(uNode) {
         var animal = uNode.attr('value');
 
-        uNode.prop('checked', details.petAdopterAnimals.indexOf(animal) > -1);
+        uNode.prop('checked', details.petAdopter.animals.indexOf(animal) > -1);
 
+        // ensure at least one value is selected
         uNode.on('change', function(e) {
             var formData = new FormData(e.target.form);
             var animals = formData.getAll('animals');
+            var isValid = animals.length > 0;
+            var message = (isValid) ? '' : 'At least one animal must be selected.';
+            elAnimals.nodeAt(0).setCustomValidity(message);
 
-            if (animals.length < 1) {
-                alert('At least one animal must be selected.');
-                uNode.prop('checked', true);
-            } else {
-                changeUserSettings('petAdopterAnimals', animals);
-            }
+            hasFormChanged = true;
         });
+    });
+
+    uDom('form').on('submit', function(e) {
+        e.preventDefault();
+        clearTimeout(messageSavedTimeout);
+
+        if (hasFormChanged) {
+            var formData = new FormData(e.target);
+
+            changeUserSettings('petAdopter', {
+                location: formData.get('location'),
+                animals: formData.getAll('animals')
+            });
+
+            // reset tracking of form changes
+            hasFormChanged = false;
+        }
+
+        elMessageSaved.classList.add('active');
+        messageSavedTimeout = setTimeout(function() {
+            elMessageSaved.classList.remove('active');
+        }, 1000);
     });
 };
 
