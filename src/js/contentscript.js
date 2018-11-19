@@ -1380,14 +1380,23 @@ vAPI.domPetAdopter = (function() {
                     // too small, so hide it
                     parentNode.setAttribute('style', 'display:none!important;');
                     break;
-                
-                case 'image':
+
+                case 'banner':
+                case 'pet':
                     // ensure parent node is relative in order to absolute position the pet ad inside it
                     if (parentStyle.getPropertyValue('position') == 'static') {
-                        parentNode.style.position = 'relative';
+                        parentNode.style.setProperty('position', 'relative', 'important');
                     }
-                
-                    var node = createPetNode(response);
+
+                    switch(response.type) {
+                        case 'banner':
+                            var node = createBannerNode(response);
+                            break;
+                        
+                        case 'pet':
+                            var node = createPetNode(response);
+                            break;
+                    }
             
                     parentNode.appendChild(node);
                     node.palParent = parentNode;
@@ -1400,7 +1409,8 @@ vAPI.domPetAdopter = (function() {
         });
     }
 
-    function createPetNode(info) {
+    function createBannerNode(info) {
+        // outer <div>
         var outerNode = document.createElement('div');
         outerNode.setAttribute('style', [
             'visibility: visible',
@@ -1412,9 +1422,114 @@ vAPI.domPetAdopter = (function() {
             // account for padding in parent node
             'padding: inherit',
             'margin: 0',
+            'overflow: hidden',
             'box-sizing: border-box'
         ].join(' !important;'));
 
+        // outer <div>
+        var outerNode2 = document.createElement('div');
+        outerNode2.setAttribute('style', [
+            'width: 100%',
+            'height: 100%',
+            'box-sizing: border-box',
+            'padding: 0',
+            'margin: 0',
+            'display: flex',
+            'align-items: center'
+        ].join(' !important;'));
+        outerNode.appendChild(outerNode2);
+
+        // inner <a>
+        var innerNode = document.createElement('a');
+        innerNode.setAttribute('style', [
+            'position: relative',
+            'display: flex',
+            'flex-direction: row',
+            'justify-content: center',
+            'width: 100%',
+            'height: 100%',
+            'max-height: ' + info.maxHeight + 'px',
+            'text-decoration: none',
+            'box-sizing: border-box',
+            'padding: 0',
+            'margin: 0'
+        ].join(' !important;'));
+        innerNode.setAttribute('href', info.url);
+        innerNode.setAttribute('target', '_blank');
+
+        // image <span>
+        var imageNode = document.createElement('span');
+        imageNode.setAttribute('style', [
+            'position: relative',
+            'display: block',
+            'width: 100%',
+            'max-width: ' + info.imageMaxWidth + 'px',
+            'height: 100%',
+            'box-sizing: border-box',
+            'margin: 0',
+            'background-size: contain',
+            'background-position: center center',
+            'background-repeat: no-repeat',
+            'background-color: #e6f8ff',
+            'background-image: url("' + encodeURI(info.imageUrl) + '")'
+        ].join(' !important;'));
+        innerNode.appendChild(imageNode);
+
+        // text <span>
+        var bgColor = '#00dbab';
+        var bgHoverColor = '#02c79c';
+        var textNode = document.createElement('span');
+        textNode.setAttribute('style', [
+            'display: flex',
+            'align-items: center',
+            //'width: 100%',
+            'box-sizing: border-box',
+            'padding: 20px 60px',
+            'color: white',
+            'text-transform: uppercase',
+            'font-size: 14px',
+            'font-weight: 700',
+            'font-family: Helvetica, Arial, sans-serif',
+            'letter-spacing: 0.08em',
+            'text-align: center',
+            'transition: background-color 300ms',
+            'white-space: nowrap',
+            'background-color: ' + bgColor
+        ].join(' !important;'));
+        textNode.appendChild(document.createTextNode(info.text));
+        innerNode.appendChild(textNode);
+
+        innerNode.addEventListener('mouseenter', function(e) {
+            textNode.style.backgroundColor = bgHoverColor;
+        });
+
+        innerNode.addEventListener('mouseleave', function(e) {
+            textNode.style.backgroundColor = bgColor;
+        });
+
+        outerNode2.appendChild(innerNode);
+
+        return outerNode;
+    }
+
+    function createPetNode(info) {
+        // outer <div>
+        var outerNode = document.createElement('div');
+        outerNode.setAttribute('style', [
+            'visibility: visible',
+            'position: absolute',
+            'top: 0',
+            'left: 0',
+            'width: 100%',
+            'height: 100%',
+            // account for padding in parent node
+            'padding: inherit',
+            'margin: 0',
+            'overflow: hidden',
+            'box-sizing: border-box'
+        ].join(' !important;'));
+
+        // inner <a>
         var innerNode = document.createElement('a');
         innerNode.setAttribute('style', [
             'position: relative',
@@ -1432,6 +1547,7 @@ vAPI.domPetAdopter = (function() {
         innerNode.setAttribute('href', info.url);
         innerNode.setAttribute('target', '_blank');
 
+        // image <span>
         var imageNode = document.createElement('span');
         imageNode.setAttribute('style', [
             'position: relative',
@@ -1439,16 +1555,15 @@ vAPI.domPetAdopter = (function() {
             'width: 100%',
             'height: calc(100% - 35px)',
             'max-height: 200px',
-            'margin: 32px 0',
+            'margin: 35px 0',
             'background-size: contain',
-            'background-position: center bottom',
-            'background-repeat: no-repeat'
+            'background-position: center center',
+            'background-repeat: no-repeat',
+            'background-image: url("' + encodeURI(info.imageUrl) + '")'
         ].join(' !important;'));
-
-        imageNode.style.backgroundImage = 'url("' + info.imageUrl + '")';
-
         innerNode.appendChild(imageNode);
 
+        // text <span>
         var textColor = '#8ab9c9';
         var textHoverColor = '#69a8be';
         var textNode = document.createElement('span');
@@ -1460,10 +1575,12 @@ vAPI.domPetAdopter = (function() {
             'color: ' + textColor,
             'text-transform: uppercase',
             'font-size: 14px',
-            'font-weight: bold',
-            'font-family: "Arial Black", Gadget, sans-serif',
+            'font-weight: 700',
+            'font-family: Helvetica, Arial, sans-serif',
+            'letter-spacing: 0.08em',
             'text-align: center',
-            'transition: color 300ms'
+            'transition: color 300ms',
+            'white-space: nowrap'
         ].join(' !important;'));
         textNode.appendChild(document.createTextNode(info.name));
         imageNode.appendChild(textNode);
