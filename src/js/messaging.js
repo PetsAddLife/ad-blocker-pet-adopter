@@ -460,33 +460,13 @@ vAPI.messaging.listen('popupPanel', onMessage);
 
 /******************************************************************************/
 
-function toDataURL(url, callback){
-    var xhr = new XMLHttpRequest();
-    xhr.open('get', url);
-    xhr.responseType = 'blob';
-    xhr.onload = function(){
-      var fr = new FileReader();
-    
-      fr.onload = function(){
-        callback(this.result);
-      };
-    
-      fr.readAsDataURL(xhr.response); // async call
-    };
-    
-    xhr.send();
-}
-
 var onMessage = function(request, sender, callback) {
     // Async
     switch ( request.what ) {
-        case 'retrievePetAsset':
-            toDataURL(vAPI.getURL('/web_accessible_resources/pal/sample-dog.jpg?secret=' + vAPI.warSecret), function(dataUrl) {
-                callback({
-                    dataUrl: dataUrl,
-                });
-            });
-            return;
+        case 'getRandomPet':
+            return µBlock.petAdopter.getRandomPet(function(response) {
+                callback(response);
+            }, request);
     default:
         break;
     }
