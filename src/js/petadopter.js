@@ -79,9 +79,22 @@ function toDataURL(url, callback){
         });
     }
 
-    toDataURL(vAPI.getURL('/web_accessible_resources/pal/sample-dog.jpg?secret=' + vAPI.warSecret), function(dataUrl) {
+    if (options.width >= 1200 && options.height >= 110) {
+        return toDataURL(vAPI.getURL('/web_accessible_resources/abpa/horizontal_ad.gif?secret=' + vAPI.warSecret), function(dataUrl) {
+            callback({
+                type: 'banner',
+                imageUrl: dataUrl,
+                imageMaxWidth: 1000,
+                url: 'https://petsaddlife.org/get-a-pet/',
+                text: 'Get a Pet',
+                maxHeight: 110,
+            });
+        });
+    }
+
+    return toDataURL(vAPI.getURL('/web_accessible_resources/abpa/sample-dog.jpg?secret=' + vAPI.warSecret), function(dataUrl) {
         callback({
-            type: 'image',
+            type: 'pet',
             imageUrl: dataUrl,
             name: 'Kobe',
             url: 'https://petsaddlife.org/pet-finder/?id=42394311%7CCA2368&type=pet'
