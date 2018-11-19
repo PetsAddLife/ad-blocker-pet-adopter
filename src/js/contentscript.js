@@ -1350,45 +1350,57 @@ vAPI.domPetAdopter = (function() {
         for (var node of nodes) {
             if (adNodes.has(node)) continue;
 
-            // skip ad nodes nested in other ad nodes
-            if (Array.from(adNodes).some(function(pettedNode) {
+            const nestedInAnotherAdNode = Array.from(adNodes).some(function(pettedNode) {
                 return pettedNode.contains(node);
-            })) {
-                adNodes.add(node);
-                continue;
+            });
+
+            // skip ad nodes nested in other ad nodes
+            if (!nestedInAnotherAdNode) {
+                insertPetNode(node);
             }
 
-            // check ad node is big enough to contain pal ad
-            var nodeStyle = window.getComputedStyle(node, null);
-            if (window.parseInt(nodeStyle.width) - window.parseInt(nodeStyle.paddingLeft) - window.parseInt(nodeStyle.paddingRight) < 100 ||
-                window.parseInt(nodeStyle.height) - window.parseInt(nodeStyle.paddingTop) - window.parseInt(nodeStyle.paddingBottom) < 100
-            ) {
-                // too small, so hide it
-                node.setAttribute('style', 'display:none!important;');
-                adNodes.add(node);
-                console.log('insert pal node too small');
-                continue;
-            }
-            console.log('insert pal node');
-
-            insertPetNode(node);
             adNodes.add(node);
         }
     }
 
-    function insertPetNode(parent) {
-        var node = createPetNode();
+    /**
+     * @param {HTMLElement} parentNode 
+     */
+    function insertPetNode(parentNode) {
+        var parentStyle = window.getComputedStyle(parentNode, null);
+        
+        vAPI.messaging.send('contentscript', {
+            what: 'getRandomPet',
+            width: window.parseInt(parentStyle.width) - window.parseInt(parentStyle.paddingLeft) - window.parseInt(parentStyle.paddingRight),
+            height: window.parseInt(parentStyle.height) - window.parseInt(parentStyle.paddingTop) - window.parseInt(parentStyle.paddingBottom)
+        }, function(response) {
 
-        if (window.getComputedStyle(parent, null).getPropertyValue('position') == 'static') {
-            parent.style.position = 'relative';
-        }
-
-        parent.appendChild(node);
-        node.palParent = parent;
-        palNodes.add(node);
+            switch(response.type) {
+                case 'too-small':
+                    // too small, so hide it
+                    parentNode.setAttribute('style', 'display:none!important;');
+                    break;
+                
+                case 'image':
+                    // ensure parent node is relative in order to absolute position the pet ad inside it
+                    if (parentStyle.getPropertyValue('position') == 'static') {
+                        parentNode.style.position = 'relative';
+                    }
+                
+                    var node = createPetNode(response);
+            
+                    parentNode.appendChild(node);
+                    node.palParent = parentNode;
+                    palNodes.add(node);
+                    break;
+                
+                default:
+                    break;
+            }
+        });
     }
 
-    function createPetNode() {
+    function createPetNode(info) {
         var outerNode = document.createElement('div');
         outerNode.setAttribute('style', [
             'visibility: visible',
@@ -1399,27 +1411,69 @@ vAPI.domPetAdopter = (function() {
             'height: 100%',
             // account for padding in parent node
             'padding: inherit',
+            'margin: 0',
             'box-sizing: border-box'
-        ].join(';'));
+        ].join(' !important;'));
 
         var innerNode = document.createElement('a');
         innerNode.setAttribute('style', [
             'position: relative',
-            'display: block',
+            'display: flex',
+            'flex-direction: column',
+            'justify-content: center',
             'width: 100%',
             'height: 100%',
-            'background-size: contain',
-            'background-position: center bottom',
-            'background-repeat: no-repeat',
-            'background-color: #e6f8ff'
-        ].join(';'));
-        innerNode.setAttribute('href', 'https://petsaddlife.org/');
+            'text-decoration: none',
+            'box-sizing: border-box',
+            'background-color: #e6f8ff',
+            'padding: 0',
+            'margin: 0'
+        ].join(' !important;'));
+        innerNode.setAttribute('href', info.url);
         innerNode.setAttribute('target', '_blank');
 
-        vAPI.messaging.send('contentscript', {
-            what: 'retrievePetAsset'
-        }, function(response) {
-            innerNode.style.backgroundImage = 'url("' + response.dataUrl + '")';
+        var imageNode = document.createElement('span');
+        imageNode.setAttribute('style', [
+            'position: relative',
+            'display: block',
+            'width: 100%',
+            'height: calc(100% - 35px)',
+            'max-height: 200px',
+            'margin: 32px 0',
+            'background-size: contain',
+            'background-position: center bottom',
+            'background-repeat: no-repeat'
+        ].join(' !important;'));
+
+        imageNode.style.backgroundImage = 'url("' + info.imageUrl + '")';
+
+        innerNode.appendChild(imageNode);
+
+        var textColor = '#8ab9c9';
+        var textHoverColor = '#69a8be';
+        var textNode = document.createElement('span');
+        textNode.setAttribute('style', [
+            'position: absolute',
+            'bottom: -25px',
+            'display: block',
+            'width: 100%',
+            'color: ' + textColor,
+            'text-transform: uppercase',
+            'font-size: 14px',
+            'font-weight: bold',
+            'font-family: "Arial Black", Gadget, sans-serif',
+            'text-align: center',
+            'transition: color 300ms'
+        ].join(' !important;'));
+        textNode.appendChild(document.createTextNode(info.name));
+        imageNode.appendChild(textNode);
+
+        innerNode.addEventListener('mouseenter', function(e) {
+            textNode.style.color = textHoverColor;
+        });
+
+        innerNode.addEventListener('mouseleave', function(e) {
+            textNode.style.color = textColor;
         });
 
         outerNode.appendChild(innerNode);

@@ -73,6 +73,9 @@ var onAllReady = function() {
 
     µb.contextMenu.update(null);
     µb.firstInstall = false;
+
+    // warm up pet adopter cache
+    µb.petAdopter.start();
 };
 
 /******************************************************************************/
@@ -255,6 +258,9 @@ var onUserSettingsReady = function(fetched) {
     if (µb.firstInstall) {
         chrome.tabs.create({url: "dashboard.html"});
     }
+
+    // initialize pet adopter
+    µb.petAdopter.assign(userSettings.petAdopter);
 };
 
 /******************************************************************************/
