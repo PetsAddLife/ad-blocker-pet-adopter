@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Bảng điều khiển",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "PetsBlockAds — Bảng điều khiển",
+    "description": "English: PetsBlockAds — Dashboard"
   },
   "settingsPageName": {
     "message": "Cấu hình",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Nhật ký các yêu cầu",
+    "message": "PetsBlockAds — Nhật ký các yêu cầu",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "uBlock₀ - Trình xem nội dung",
+    "message": "PetsBlockAds - Trình xem nội dung",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Nhấp chuột: vô hiệu\/kích hoạt uBlock₀ cho trang này.\nCtrl + nhấp chuột: chỉ vô hiệu uBlock₀ trên trang này.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Nhấp chuột: vô hiệu\/kích hoạt PetsBlockAds cho trang này.\nCtrl + nhấp chuột: chỉ vô hiệu PetsBlockAds trên trang này.",
+    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Nhấp chuột để vô hiệu uBlock₀ cho trang này. \n\nCtrl + nhấp chuột để tắt uBlock₀ chỉ trên trang này.",
+    "message": "Nhấp chuột để vô hiệu PetsBlockAds cho trang này. \n\nCtrl + nhấp chuột để tắt PetsBlockAds chỉ trên trang này.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Nhấp để bật uBlock₀ trên trang này.",
+    "message": "Nhấp để bật PetsBlockAds trên trang này.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Tuỳ chọn này kích hoạt phân tích và áp dụng <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">các bộ lọc &ldquo;ẩn phần tử&rdquo; tương thích với Adblock Plus<\/a>. Những bộ lọc này dùng để ẩn phần tử trong một trang web được xem là gây phiền hà đến thị giác và không thể chặn bởi bộ lọc dựa địa chỉ trang web.<\/p><p>Kích hoạt tính năng này sẽ tăng mức sử dụng bộ nhớ của uBlock₀.<\/p>",
+    "message": "<p>Tuỳ chọn này kích hoạt phân tích và áp dụng <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">các bộ lọc &ldquo;ẩn phần tử&rdquo; tương thích với Adblock Plus<\/a>. Những bộ lọc này dùng để ẩn phần tử trong một trang web được xem là gây phiền hà đến thị giác và không thể chặn bởi bộ lọc dựa địa chỉ trang web.<\/p><p>Kích hoạt tính năng này sẽ tăng mức sử dụng bộ nhớ của PetsBlockAds.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Bộ lọc phần tử ẩn chung là là những bộ lọc phần tử ẩn áp dụng cho tất cả các website.<p>Mặc dù được xử lý hiệu quả bởi uBlock₀, các bộ lọc phần tử ẩn chung vẫn chiếm dụng bộ nhớ và CPU quá mức trên một số trang web, đặc biệt là các trang lớn và lâu năm.<p>Kích hoạt tuỳ chọn này sẽ loại bỏ sử dụng bộ nhớ và CPU quá mức thêm vào trang web nhờ khả năng xử lý các bộ lọc phần tử ẩn chung và cũng làm giảm sử dụng bộ nhớ của uBlock₀.<p>Chúng tôi khuyến cáo bạn nên kích hoạt tuỳ chọn này trên các thiết bị không quá mạnh.",
+    "message": "<p>Bộ lọc phần tử ẩn chung là là những bộ lọc phần tử ẩn áp dụng cho tất cả các website.<p>Mặc dù được xử lý hiệu quả bởi PetsBlockAds, các bộ lọc phần tử ẩn chung vẫn chiếm dụng bộ nhớ và CPU quá mức trên một số trang web, đặc biệt là các trang lớn và lâu năm.<p>Kích hoạt tuỳ chọn này sẽ loại bỏ sử dụng bộ nhớ và CPU quá mức thêm vào trang web nhờ khả năng xử lý các bộ lọc phần tử ẩn chung và cũng làm giảm sử dụng bộ nhớ của PetsBlockAds.<p>Chúng tôi khuyến cáo bạn nên kích hoạt tuỳ chọn này trên các thiết bị không quá mạnh.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Các thiết lập của bạn sẽ bị ghi đè bởi dữ liệu đã lưu vào lúc {{time}}, và uBlock₀ sẽ khởi động lại. \n\nGhi đè các thiết lập hiện tại bằng dữ liệu đã lưu?",
+    "message": "Các thiết lập của bạn sẽ bị ghi đè bởi dữ liệu đã lưu vào lúc {{time}}, và PetsBlockAds sẽ khởi động lại. \n\nGhi đè các thiết lập hiện tại bằng dữ liệu đã lưu?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Các thiết lập sẽ bị xóa và uBlock₀ sẽ khởi động lại. \n\nThiết lập uBlock₀ về cấu hình ban đầu?",
+    "message": "Các thiết lập sẽ bị xóa và PetsBlockAds sẽ khởi động lại. \n\nThiết lập PetsBlockAds về cấu hình ban đầu?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Thêm URL dưới đây vào bộ lọc tuỳ biến của bạn?\n\nTên: \"{{title}}\"\nURL: {{url}}",
+    "message": "PetsBlockAds: Thêm URL dưới đây vào bộ lọc tuỳ biến của bạn?\n\nTên: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "tắt",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBloc Origin đã chặn tải trang sau:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "description": "English: PetsBlockAds has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Vì bộ lọc sau",

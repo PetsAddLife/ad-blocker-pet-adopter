@@ -9,7 +9,7 @@
   },
   "dashboardName": {
     "message": "म्यूब्लॉक — डैशबोर्ड",
-    "description": "English: uBlock₀ — Dashboard"
+    "description": "English: PetsBlockAds — Dashboard"
   },
   "settingsPageName": {
     "message": "सेटिंग्ज",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — लॉगर",
+    "message": "PetsBlockAds — लॉगर",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "uBlock₀ — Asset viewer",
+    "message": "PetsBlockAds — Asset viewer",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -53,7 +53,7 @@
   },
   "popupPowerSwitchInfo": {
     "message": "क्लिक करा : या साइटसाठी म्यूब्लॉक अक्षम\/सक्षम.\n\nCtrl+क्लिक करा: फक्त या पृष्ठावर म्यूब्लॉक अक्षम.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
   },
   "popupPowerSwitchInfo1": {
     "message": "Ctrl क्लिक करा फक्त या साइटवर म्यूब्लॉक बंद करण्यासाठी.",
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by uBlock₀, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of uBlock₀ itself.<p>It is recommended to enable this option on less powerful devices.",
+    "message": "<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by PetsBlockAds, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of PetsBlockAds itself.<p>It is recommended to enable this option on less powerful devices.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Add the following URL to your custom filter lists?\n\nTitle: \"{{title}}\"\nURL: {{url}}",
+    "message": "PetsBlockAds: Add the following URL to your custom filter lists?\n\nTitle: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "off",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin has prevented the following page from loading:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "description": "English: PetsBlockAds has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Because of the following filter",

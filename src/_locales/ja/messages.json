@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — ダッシュボード",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "PetsBlockAds — ダッシュボード",
+    "description": "English: PetsBlockAds — Dashboard"
   },
   "settingsPageName": {
     "message": " 設定",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — ネットワークリクエストログ",
+    "message": "PetsBlockAds — ネットワークリクエストログ",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "uBlock₀ — アセットビューアー",
+    "message": "PetsBlockAds — アセットビューアー",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "uBlock₀ の有効 \/ 無効を切り替えます。\n\nクリック: サイト全体  \nCtrl+クリック: このページのみ",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "PetsBlockAds の有効 \/ 無効を切り替えます。\n\nクリック: サイト全体  \nCtrl+クリック: このページのみ",
+    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "クリックで、このサイト全体において uBlock₀ を無効化します。\n\nCtrl+クリックで、このページでのみ uBlock₀ を無効化します。",
+    "message": "クリックで、このサイト全体において PetsBlockAds を無効化します。\n\nCtrl+クリックで、このページでのみ PetsBlockAds を無効化します。",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "クリックで、このサイトにおいて uBlock₀ を有効化します。",
+    "message": "クリックで、このサイトにおいて PetsBlockAds を有効化します。",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>このオプションは<a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus適合の&ldquo;要素隠蔽&rdquo;フィルター<\/a>の解析と施行を有効にします。これらのフィルターは表面的で、ネットリクエストベースのフィルタリングエンジンでブロックできない視覚的に迷惑な要素をウェブページ上で隠す物です。<\/p><p>この機能を有効にするとuBlock₀の使用メモリーを増やします。<\/p>",
+    "message": "<p>このオプションは<a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus適合の&ldquo;要素隠蔽&rdquo;フィルター<\/a>の解析と施行を有効にします。これらのフィルターは表面的で、ネットリクエストベースのフィルタリングエンジンでブロックできない視覚的に迷惑な要素をウェブページ上で隠す物です。<\/p><p>この機能を有効にするとPetsBlockAdsの使用メモリーを増やします。<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>汎用的な要素隠蔽フィルターとは、すべてのウェブサイトに適用される要素隠蔽フィルターのことです。<p>これはuBlock₀によって効率的に処理されますが、特に大規模で長期運営されている一部のウェブページ上では、メモリ使用量や処理時間に目に見える影響を与えることがあります。<p>このオプションを有効にすると、汎用的な要素隠蔽フィルターを処理するためにウェブページごとに追加されるメモリ使用量や処理時間を減らし、さらにuBlock₀自体のメモリ使用量を軽減できます。<p>低スペックの環境では、このオプションを有効にすることを推奨します。",
+    "message": "<p>汎用的な要素隠蔽フィルターとは、すべてのウェブサイトに適用される要素隠蔽フィルターのことです。<p>これはPetsBlockAdsによって効率的に処理されますが、特に大規模で長期運営されている一部のウェブページ上では、メモリ使用量や処理時間に目に見える影響を与えることがあります。<p>このオプションを有効にすると、汎用的な要素隠蔽フィルターを処理するためにウェブページごとに追加されるメモリ使用量や処理時間を減らし、さらにPetsBlockAds自体のメモリ使用量を軽減できます。<p>低スペックの環境では、このオプションを有効にすることを推奨します。",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -496,7 +496,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "uBlock₀が無効になるホスト名の一覧です。1行につき1つのエントリで、無効なホスト名は無視されます。",
+    "message": "PetsBlockAdsが無効になるホスト名の一覧です。1行につき1つのエントリで、無効なホスト名は無視されます。",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "{{time}}のバックアップデータを使用してすべての設定を上書きした後、uBlock₀が再起動します。\n\nバックアップデータを使用して既存のすべての設定の上書きしますか？",
+    "message": "{{time}}のバックアップデータを使用してすべての設定を上書きした後、PetsBlockAdsが再起動します。\n\nバックアップデータを使用して既存のすべての設定の上書きしますか？",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "すべての設定が消去された後、uBlock₀が再起動します。\n\n初期設定にリセットしますか？",
+    "message": "すべての設定が消去された後、PetsBlockAdsが再起動します。\n\n初期設定にリセットしますか？",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: 以下のURLをカスタムフィルターに追加しますか？\n\nタイトル: \"{{title}}\"\nURL: {{url}}",
+    "message": "PetsBlockAds: 以下のURLをカスタムフィルターに追加しますか？\n\nタイトル: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "オフ",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin は、このページの読み込みをブロックしました",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "description": "English: PetsBlockAds has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "該当するフィルター",
