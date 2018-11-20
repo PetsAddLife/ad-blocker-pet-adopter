@@ -373,7 +373,7 @@
   },
   "3pGroupDefault": {
     "message": "Sisäänrakennettu",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Mainokset",
