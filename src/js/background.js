@@ -81,16 +81,7 @@ var µBlock = (function() { // jshint ignore:line
             webrtcIPAddressHidden: false,
             petAdopter: {
                 location: '90210',
-                animals: [
-                    //'barnyard',
-                    'bird',
-                    'cat',
-                    'dog',
-                    'horse',
-                    'reptile',
-                    'smallfurry',
-                    'rabbit'
-                ]
+                animal: null
             }
         },
 
