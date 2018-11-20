@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — داشبورد",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — داشبورد",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "تنظیمات",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — واقعه‌نگار",
+    "message": "Ad Blocker Pet Adopter — واقعه‌نگار",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — Asset viewer",
+    "message": "Ad Blocker Pet Adopter — Asset viewer",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "کلیک: غیر فعال\/ فعال کردن PetsBlockAds برای این سایت.\n\nکنترل+کلیک: غیر فعال کردن PetsBlockAds فقط برای همین صفحه.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "کلیک: غیر فعال\/ فعال کردن Ad Blocker Pet Adopter برای این سایت.\n\nکنترل+کلیک: غیر فعال کردن Ad Blocker Pet Adopter فقط برای همین صفحه.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "کلیک کنید تا PetsBlockAds برای این سایت غیر فعال شود.\n\nهمزمان کلیدکنترل را نگهدارید و کلیک کنید تا PetsBlockAds فقط برای این صفحه غیر فعال شود.",
+    "message": "کلیک کنید تا Ad Blocker Pet Adopter برای این سایت غیر فعال شود.\n\nهمزمان کلیدکنترل را نگهدارید و کلیک کنید تا Ad Blocker Pet Adopter فقط برای این صفحه غیر فعال شود.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "کلیک کنید تا PetsBlockAds برای این سایت فعال شود.",
+    "message": "کلیک کنید تا Ad Blocker Pet Adopter برای این سایت فعال شود.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>فیلترهای زیبا سازی عمومی، آن دسته از فیلترهای زیبا سازی هستند که در همه وب سایت ها کاربرد دارند.\n<p>اگر چه بصورت موثر توسط PetsBlockAds انجام شده، ولی فیلترهای عمومی زیبا سازی هنوز هم ممکن است سربار حافظه قابل اندازه گیری و سربار پردازنده در برخی از صفحات وب به جای بگذارد، به ویژه برای صفحات وب بزرگ و طولانی مدت.<p>فعال کردن این گزینه سربارهای حافظه و پردازنده را که به صفحات اضافه شده به عنوان نتیجۀ اجرای فیلترهای عمومی زیبا سازی برطرف می‌کند، و همچنین ردپای حافظۀ خود PetsBlockAds را کمتر می‌کند<p>توصیه می شود این گزینه را در دستگاه های با قدرت کمتر فعال کنید.",
+    "message": "<p>فیلترهای زیبا سازی عمومی، آن دسته از فیلترهای زیبا سازی هستند که در همه وب سایت ها کاربرد دارند.\n<p>اگر چه بصورت موثر توسط Ad Blocker Pet Adopter انجام شده، ولی فیلترهای عمومی زیبا سازی هنوز هم ممکن است سربار حافظه قابل اندازه گیری و سربار پردازنده در برخی از صفحات وب به جای بگذارد، به ویژه برای صفحات وب بزرگ و طولانی مدت.<p>فعال کردن این گزینه سربارهای حافظه و پردازنده را که به صفحات اضافه شده به عنوان نتیجۀ اجرای فیلترهای عمومی زیبا سازی برطرف می‌کند، و همچنین ردپای حافظۀ خود Ad Blocker Pet Adopter را کمتر می‌کند<p>توصیه می شود این گزینه را در دستگاه های با قدرت کمتر فعال کنید.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -496,7 +496,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "دستور العمل‌های لیست سفید حکم می‌کند که PetsBlockAds باید بر روی کدام یک از صفحات وب غیر فعال باشد. در هر خط فقط یک مورد. دستور العمل‌های نامعتبر بدون اشاره ای نادیده گرفته شده و بیرون انداخته می‌شوند.",
+    "message": "دستور العمل‌های لیست سفید حکم می‌کند که Ad Blocker Pet Adopter باید بر روی کدام یک از صفحات وب غیر فعال باشد. در هر خط فقط یک مورد. دستور العمل‌های نامعتبر بدون اشاره ای نادیده گرفته شده و بیرون انداخته می‌شوند.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "تمام تنظیمات با استفاده از پشتیبان گیری در {{time}}،  رونویسی شده و PetsBlockAds مجدد راه اندازی میشود.\n\nتمام تنظیمات موجود با استفاده از داده های پشتیبانی رونویسی شود؟",
+    "message": "تمام تنظیمات با استفاده از پشتیبان گیری در {{time}}،  رونویسی شده و Ad Blocker Pet Adopter مجدد راه اندازی میشود.\n\nتمام تنظیمات موجود با استفاده از داده های پشتیبانی رونویسی شود؟",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "تمام تنظیمات شما حذف شده و PetsBlockAds دوباره راه اندازی خواهد شد.\n\nتنظیم مجدد PetsBlockAds به تنظیمات کارخانه؟",
+    "message": "تمام تنظیمات شما حذف شده و Ad Blocker Pet Adopter دوباره راه اندازی خواهد شد.\n\nتنظیم مجدد Ad Blocker Pet Adopter به تنظیمات کارخانه؟",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: آدرس اینترنتی زیر به فهرست فیلتر های سفارشی شما اضافه شود؟\n\nعنوان: \"{{title}}\"\nآدرس: {{url}}",
+    "message": "Ad Blocker Pet Adopter: آدرس اینترنتی زیر به فهرست فیلتر های سفارشی شما اضافه شود؟\n\nعنوان: \"{{title}}\"\nآدرس: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "خاموش",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "PetsBlockAds از بارگذاری این صفحات جلوگیری کرده:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "message": "Ad Blocker Pet Adopter از بارگذاری این صفحات جلوگیری کرده:",
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "بخاطر فیلتر زیر",

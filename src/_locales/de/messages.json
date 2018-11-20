@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "PetsBlockAds",
+    "message": "Ad Blocker Pet Adopter",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Dashboard",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Dashboard",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Einstellungen",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Protokoll der Netzwerkanfragen",
+    "message": "Ad Blocker Pet Adopter — Protokoll der Netzwerkanfragen",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — Ressourcenbetrachter",
+    "message": "Ad Blocker Pet Adopter — Ressourcenbetrachter",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Klick: PetsBlockAds für alle Seiten dieser Domain aktivieren\/deaktivieren.\n\nStrg+Klick: PetsBlockAds nur für die aktuelle Webseite deaktivieren.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "Klick: Ad Blocker Pet Adopter für alle Seiten dieser Domain aktivieren\/deaktivieren.\n\nStrg+Klick: Ad Blocker Pet Adopter nur für die aktuelle Webseite deaktivieren.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Klicken, um PetsBlockAds für diese Website zu deaktivieren. \n\nStrg+Klick, um PetsBlockAds nur auf dieser Webseite zu deaktivieren.",
+    "message": "Klicken, um Ad Blocker Pet Adopter für diese Website zu deaktivieren. \n\nStrg+Klick, um Ad Blocker Pet Adopter nur auf dieser Webseite zu deaktivieren.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Klicken Sie hier, um PetsBlockAds für diese Website zu aktivieren.",
+    "message": "Klicken Sie hier, um Ad Blocker Pet Adopter für diese Website zu aktivieren.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Diese Option ermöglicht die Analyse und Anwendung von <a href=\"https:\/\/adblockplus.org\/de\/faq_internal#elemhide\">Adblock-Plus-kompatiblen Filtern zum &ldquo;Verstecken von Elementen&rdquo;<\/a>. Diese Filter sind grundsätzlich kosmetischer Natur und dienen zum Verstecken von Elementen auf einer Webseite, die als optische Belästigung wahrgenommen werden und nicht von den vorhandenen Filtern geblockt werden können.<\/p><p>Das Aktivieren dieser Option erhöht den Speicherbedarf von <i>PetsBlockAds<\/i>.<\/p>",
+    "message": "<p>Diese Option ermöglicht die Analyse und Anwendung von <a href=\"https:\/\/adblockplus.org\/de\/faq_internal#elemhide\">Adblock-Plus-kompatiblen Filtern zum &ldquo;Verstecken von Elementen&rdquo;<\/a>. Diese Filter sind grundsätzlich kosmetischer Natur und dienen zum Verstecken von Elementen auf einer Webseite, die als optische Belästigung wahrgenommen werden und nicht von den vorhandenen Filtern geblockt werden können.<\/p><p>Das Aktivieren dieser Option erhöht den Speicherbedarf von <i>Ad Blocker Pet Adopter<\/i>.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Generische kosmetische Filter sind diejenigen kosmetischen Filter, die für die Anwendung auf allen Webseiten bestimmt sind.<p>Obwohl sie von PetsBlockAds effizient verarbeitet werden, können sie dennoch auf einigen Webseiten - insbesondere auf den großen und langlebigen - eine messbare Belastung für Arbeitsspeicher und Prozessor bewirken.<p>Die Aktivierung dieser Option wird diese Mehrbelastung für Speicher und Prozessor auf bestimmten Webseiten durch die Verarbeitung generischer kosmetischer Filter verhindern und auch den von PetsBlockAds in Anspruch genommenen Arbeitsspeicher verringern.<p>Es wird empfohlen, diese Option auf weniger leistungsstarken Geräten zu aktivieren.",
+    "message": "<p>Generische kosmetische Filter sind diejenigen kosmetischen Filter, die für die Anwendung auf allen Webseiten bestimmt sind.<p>Obwohl sie von Ad Blocker Pet Adopter effizient verarbeitet werden, können sie dennoch auf einigen Webseiten - insbesondere auf den großen und langlebigen - eine messbare Belastung für Arbeitsspeicher und Prozessor bewirken.<p>Die Aktivierung dieser Option wird diese Mehrbelastung für Speicher und Prozessor auf bestimmten Webseiten durch die Verarbeitung generischer kosmetischer Filter verhindern und auch den von Ad Blocker Pet Adopter in Anspruch genommenen Arbeitsspeicher verringern.<p>Es wird empfohlen, diese Option auf weniger leistungsstarken Geräten zu aktivieren.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -496,7 +496,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Whitelist-Regeln schreiben vor, auf welchen Webseiten PetsBlockAds nicht aktiv sein soll. Ein Eintrag pro Zeile. Ungültige Regeln werden stillschweigend ignoriert und auskommentiert.",
+    "message": "Whitelist-Regeln schreiben vor, auf welchen Webseiten Ad Blocker Pet Adopter nicht aktiv sein soll. Ein Eintrag pro Zeile. Ungültige Regeln werden stillschweigend ignoriert und auskommentiert.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Alle Einstellungen werden gelöscht und PetsBlockAds wird neu gestartet.\n\nSoll PetsBlockAds auf Werkseinstellungen zurückgesetzt werden?",
+    "message": "Alle Einstellungen werden gelöscht und Ad Blocker Pet Adopter wird neu gestartet.\n\nSoll Ad Blocker Pet Adopter auf Werkseinstellungen zurückgesetzt werden?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Die folgende URL deiner Auswahl an Filterlisten hinzufügen?\n\nTitel: \"{{title}}\"\nURL: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Die folgende URL deiner Auswahl an Filterlisten hinzufügen?\n\nTitel: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "aus",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin hat das Laden der folgenden Seite verhindert:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Aufgrund des folgenden Filters",

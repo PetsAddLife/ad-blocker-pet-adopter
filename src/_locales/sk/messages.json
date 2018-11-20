@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Ovládací panel",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Ovládací panel",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Nastavenia",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Zaznamenávač",
+    "message": "Ad Blocker Pet Adopter — Zaznamenávač",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — Zobrazenie zdrojov",
+    "message": "Ad Blocker Pet Adopter — Zobrazenie zdrojov",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Kliknutie: zakázať\/povoliť uBlock pre túto stránku.\n\nCtrl+kliknutie: zakázať PetsBlockAds len pre túto stránku.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "Kliknutie: zakázať\/povoliť uBlock pre túto stránku.\n\nCtrl+kliknutie: zakázať Ad Blocker Pet Adopter len pre túto stránku.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Kliknutím zakážete PetsBlockAds pre túto stránku.\n\nCtrl+kliknutie zakáže PetsBlockAds len pre túto stránku.",
+    "message": "Kliknutím zakážete Ad Blocker Pet Adopter pre túto stránku.\n\nCtrl+kliknutie zakáže Ad Blocker Pet Adopter len pre túto stránku.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Kliknutím povolíte PetsBlockAds pre túto stránku.",
+    "message": "Kliknutím povolíte Ad Blocker Pet Adopter pre túto stránku.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Táto možnosť povoľuje analyzovanie a vynútenie <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">filtrov &ldquo;skrývajúcich prvky&rdquo; a kompatibilných s Adblock Plus<\/a>. Tieto filtre sú prevažne kozmetické. Skrývajú prvky webových stránok, ktoré sú vizuálne otravné a nemôžu byť zablokované filtrovaním sieťových požiadavkov.<\/p><p>Povolenie tejto funkcie zvyšujte nároky <i>PetsBlockAds<\/i>na pamäť.<\/p>",
+    "message": "<p>Táto možnosť povoľuje analyzovanie a vynútenie <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">filtrov &ldquo;skrývajúcich prvky&rdquo; a kompatibilných s Adblock Plus<\/a>. Tieto filtre sú prevažne kozmetické. Skrývajú prvky webových stránok, ktoré sú vizuálne otravné a nemôžu byť zablokované filtrovaním sieťových požiadavkov.<\/p><p>Povolenie tejto funkcie zvyšujte nároky <i>Ad Blocker Pet Adopter<\/i>na pamäť.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Generické kozmetické filtre sú tie kozmetické filtre, ktoré sú určené na použitie na všetkých webových stránkach.<p>Aj keď ich PetsBlockAds používa efektívne, generické kozmetické filtre môžu stále prispievať k zaťaženiu pamäte a procesora na niektorých webových stránkach, a to najmä na veľkých a zložitých.<p>Zapnutím tejto možnosti sa zníži zaťaženie pamäte a procesora v dôsledku použitia generických kozmetických filtrov pre webové stránky, a taktiež sa znížia nároky samotného rozšírenia PetsBlockAds na pamäť.<p>Odporúča sa povoliť túto možnosť na menej výkonných zariadení.",
+    "message": "<p>Generické kozmetické filtre sú tie kozmetické filtre, ktoré sú určené na použitie na všetkých webových stránkach.<p>Aj keď ich Ad Blocker Pet Adopter používa efektívne, generické kozmetické filtre môžu stále prispievať k zaťaženiu pamäte a procesora na niektorých webových stránkach, a to najmä na veľkých a zložitých.<p>Zapnutím tejto možnosti sa zníži zaťaženie pamäte a procesora v dôsledku použitia generických kozmetických filtrov pre webové stránky, a taktiež sa znížia nároky samotného rozšírenia Ad Blocker Pet Adopter na pamäť.<p>Odporúča sa povoliť túto možnosť na menej výkonných zariadení.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Pridať nasledujúcu URL do zoznamu vlastných filtrov?\n\nNázov: \"{{title}}\"\nURL: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Pridať nasledujúcu URL do zoznamu vlastných filtrov?\n\nNázov: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "vypnutý",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin zabránil načítaniu nasledujúcej stránky:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Kvôli nasledujúcemu filtru",

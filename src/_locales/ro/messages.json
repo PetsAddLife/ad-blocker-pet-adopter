@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Panou de control",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Panou de control",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Opțiuni",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Jurnal",
+    "message": "Ad Blocker Pet Adopter — Jurnal",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — Vizualizator de resurse",
+    "message": "Ad Blocker Pet Adopter — Vizualizator de resurse",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Clic: dezactivează\/activează PetsBlockAds pentru acest sait.\n\nCtrl+clic: dezactivează PetsBlockAds doar pe această pagină.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "Clic: dezactivează\/activează Ad Blocker Pet Adopter pentru acest sait.\n\nCtrl+clic: dezactivează Ad Blocker Pet Adopter doar pe această pagină.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Clic ca să dezactivezi PetsBlockAds pe acest site.\n\nCtrl+clic ca să dezactivezi PetsBlockAds doar pe această pagină.",
+    "message": "Clic ca să dezactivezi Ad Blocker Pet Adopter pe acest site.\n\nCtrl+clic ca să dezactivezi Ad Blocker Pet Adopter doar pe această pagină.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Clic pentru a activa PetsBlockAds pe acest site.",
+    "message": "Clic pentru a activa Ad Blocker Pet Adopter pe acest site.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Această opțiune permite citirea și aplicarea <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">filtrelor compatibile Adblock Plus pentru &ldquo;ascunderea elementelor&rdquo;<\/a>. Aceste filtre sunt în esență vizuale, ele servesc la ascunderea elementelor dintr-o pagină web care sunt considerate drept o neplăcere vizuală și care nu pot fi blocate de motorul de filtrare bazat pe cereri de rețea.<\/p><p>Activând această opțiune memoria utilizată de PetsBlockAds va crește.<\/p>",
+    "message": "<p>Această opțiune permite citirea și aplicarea <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">filtrelor compatibile Adblock Plus pentru &ldquo;ascunderea elementelor&rdquo;<\/a>. Aceste filtre sunt în esență vizuale, ele servesc la ascunderea elementelor dintr-o pagină web care sunt considerate drept o neplăcere vizuală și care nu pot fi blocate de motorul de filtrare bazat pe cereri de rețea.<\/p><p>Activând această opțiune memoria utilizată de Ad Blocker Pet Adopter va crește.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>FIltrele cosmetice generice sunt acelea care se aplică tuturor site-urilor.<p>Deși sunt folosite eficient de PetsBlockAds, filtrele cosmetice generice pot contribui semnificativ la creșterea cantității de memorie și a utilizării procesorului pe anumite pagini, în special cele de mari dimensiuni și care sunt încărcate pentru mult timp.<p>Activarea acestei opțiuni va elimina încărcarea suplimentară a memoriei și a procesorului rezultată în urma folosirii filtrelor cosmetice generice, și, de asemenea, va micșora impactul PetsBlockAds asupra sistemului.<p>Se recomandă activarea acestei opțiuni pe dispozitivele mai puțin performante.",
+    "message": "<p>FIltrele cosmetice generice sunt acelea care se aplică tuturor site-urilor.<p>Deși sunt folosite eficient de Ad Blocker Pet Adopter, filtrele cosmetice generice pot contribui semnificativ la creșterea cantității de memorie și a utilizării procesorului pe anumite pagini, în special cele de mari dimensiuni și care sunt încărcate pentru mult timp.<p>Activarea acestei opțiuni va elimina încărcarea suplimentară a memoriei și a procesorului rezultată în urma folosirii filtrelor cosmetice generice, și, de asemenea, va micșora impactul Ad Blocker Pet Adopter asupra sistemului.<p>Se recomandă activarea acestei opțiuni pe dispozitivele mai puțin performante.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Toate opțiunile vor fi suprascrise cu datele din {{time}} și PetsBlockAds va fi repornit.\n\nDorești să suprascrii toate opțiunile folosind datele salvate?",
+    "message": "Toate opțiunile vor fi suprascrise cu datele din {{time}} și Ad Blocker Pet Adopter va fi repornit.\n\nDorești să suprascrii toate opțiunile folosind datele salvate?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Toate configurările tale vor fi eliminate și PetsBlockAds va reporni.\n\nRestaurează PetsBlockAds la configurările din fabrică?",
+    "message": "Toate configurările tale vor fi eliminate și Ad Blocker Pet Adopter va reporni.\n\nRestaurează Ad Blocker Pet Adopter la configurările din fabrică?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Adaug următorul URL în lista ta de filtre personalizate?\n\nTitlu: \"{{title}}\"\nURL: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Adaug următorul URL în lista ta de filtre personalizate?\n\nTitlu: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "dezactivat",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin a prevenit încărcarea acestei pagini:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Din cauza următorului filtru",

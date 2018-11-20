@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "PetsBlockAds",
+    "message": "Ad Blocker Pet Adopter",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — פאנל הקונפיגורציות",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — פאנל הקונפיגורציות",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "הגדרות",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — מתעד הבקשות",
+    "message": "Ad Blocker Pet Adopter — מתעד הבקשות",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — מציג הנכסים",
+    "message": "Ad Blocker Pet Adopter — מציג הנכסים",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "לחיצה: כבה\/הפעל את PetsBlockAds לאתר זה לצמיתות.\n\nCtrl+לחיצה: כבה את PetsBlockAds רק בדף זה.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "לחיצה: כבה\/הפעל את Ad Blocker Pet Adopter לאתר זה לצמיתות.\n\nCtrl+לחיצה: כבה את Ad Blocker Pet Adopter רק בדף זה.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "לחיצה: כבה את PetsBlockAds לאתר זה.\n\nCtrl+לחיצה: כבה את PetsBlockAds רק בדף זה.",
+    "message": "לחיצה: כבה את Ad Blocker Pet Adopter לאתר זה.\n\nCtrl+לחיצה: כבה את Ad Blocker Pet Adopter רק בדף זה.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "לחץ על מנת להפעיל את PetsBlockAds באתר זה.",
+    "message": "לחץ על מנת להפעיל את Ad Blocker Pet Adopter באתר זה.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>אפשרות זו מאפשרת פירסור ואיפשור של <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">מסנני &ldquo;ההסתרת האלמנטים&rdquo; התואמים ל Adblock Plus<\/a>. מסננים אלו הם קוסמטיים, הם נועדו להסתיר אלמנטים בדף אשר נחשבים למטרד חזותי, ואשר לא יכולים להיחסם על ידי מנוע חסימת בקשות רשת.<\/p><p>הפעלת פיצ'ר זה מעלה את צריכת הזיכרון של <i>PetsBlockAds<\/i><\/p>",
+    "message": "<p>אפשרות זו מאפשרת פירסור ואיפשור של <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">מסנני &ldquo;ההסתרת האלמנטים&rdquo; התואמים ל Adblock Plus<\/a>. מסננים אלו הם קוסמטיים, הם נועדו להסתיר אלמנטים בדף אשר נחשבים למטרד חזותי, ואשר לא יכולים להיחסם על ידי מנוע חסימת בקשות רשת.<\/p><p>הפעלת פיצ'ר זה מעלה את צריכת הזיכרון של <i>Ad Blocker Pet Adopter<\/i><\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>מסננים קוסמטיים כלליים הם המסננים הקוסמטיים אשר מיועדים להיות מוחלים על כל דפי האינטרנט.<p>למרות ש PetsBlockAds מטפל בהם ביעילות, מסננים קוסמטיים כללים יכולים להכביד על הזיכרון וה CPU בדפי אינטרנט מסוימים, בעיקר לדפי אינטרנט גדולים ובעלי חיים ארוכים.<p>אפשור הגדרה זו תמנע את השימוש הרב בזיכרון וב CPU אשר נוספים לדפי אינטרנט כתוצאה משימוש במסננים קוסמטיים כלליים, וגם תוריד את צריכת הזיכרון של PetsBlockAds עצמו.<p>מומלץ לאפשר הגדרה זו במכשירים חלשים יותר.",
+    "message": "<p>מסננים קוסמטיים כלליים הם המסננים הקוסמטיים אשר מיועדים להיות מוחלים על כל דפי האינטרנט.<p>למרות ש Ad Blocker Pet Adopter מטפל בהם ביעילות, מסננים קוסמטיים כללים יכולים להכביד על הזיכרון וה CPU בדפי אינטרנט מסוימים, בעיקר לדפי אינטרנט גדולים ובעלי חיים ארוכים.<p>אפשור הגדרה זו תמנע את השימוש הרב בזיכרון וב CPU אשר נוספים לדפי אינטרנט כתוצאה משימוש במסננים קוסמטיים כלליים, וגם תוריד את צריכת הזיכרון של Ad Blocker Pet Adopter עצמו.<p>מומלץ לאפשר הגדרה זו במכשירים חלשים יותר.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "כל ההגדרות שלך יוחלפו בנתונים שגובו ב {{time}}, ו PetsBlockAds יופעל מחדש.\n\nהאם להחליף את כל ההגדרות הקיימות בנתונים המגובים?",
+    "message": "כל ההגדרות שלך יוחלפו בנתונים שגובו ב {{time}}, ו Ad Blocker Pet Adopter יופעל מחדש.\n\nהאם להחליף את כל ההגדרות הקיימות בנתונים המגובים?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "כל ההגדרות שלך יימחקו, ו PetsBlockAds יופעל מחדש.\n\nלאפס את PetsBlockAds להגדרות ברירת מחדל?",
+    "message": "כל ההגדרות שלך יימחקו, ו Ad Blocker Pet Adopter יופעל מחדש.\n\nלאפס את Ad Blocker Pet Adopter להגדרות ברירת מחדל?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: הוסף את הכתובת הבאה לרשימת הפילטרים המותאמים אישית שלך?\n\nכותרת: \"{{title}}\"\nכתובת URL: {{url}}",
+    "message": "Ad Blocker Pet Adopter: הוסף את הכתובת הבאה לרשימת הפילטרים המותאמים אישית שלך?\n\nכותרת: \"{{title}}\"\nכתובת URL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "מכובה",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin מנע מהעמוד הבא להיטען:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "בגלל המסנן הבא",

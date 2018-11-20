@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Kontrollpanel",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Kontrollpanel",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Inställningar",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Logg för nätverksbegäran",
+    "message": "Ad Blocker Pet Adopter — Logg för nätverksbegäran",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — Resurser",
+    "message": "Ad Blocker Pet Adopter — Resurser",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Klick: avaktivera\/aktivera PetsBlockAds för denna hemsida permanent.\n\nCtrl+klick: avaktivera PetsBlockAds endast för denna sida.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "Klick: avaktivera\/aktivera Ad Blocker Pet Adopter för denna hemsida permanent.\n\nCtrl+klick: avaktivera Ad Blocker Pet Adopter endast för denna sida.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Klicka för att inaktivera PetsBlockAds för den här webbplatsen.\n\nCtrl + klicka för att inaktivera PetsBlockAds för enbart den här sidan.",
+    "message": "Klicka för att inaktivera Ad Blocker Pet Adopter för den här webbplatsen.\n\nCtrl + klicka för att inaktivera Ad Blocker Pet Adopter för enbart den här sidan.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Klicka för att aktivera PetsBlockAds på den här webbplatsen.",
+    "message": "Klicka för att aktivera Ad Blocker Pet Adopter på den här webbplatsen.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Det här alternativet aktiverar tolkning och applicering av <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-kompatibla &ldquo;elementdöljningsfilter&rdquo;<\/a>. Dessa filter är i huvudsak kosmetiska. De tjänar till att dölja element som anses vara till visuella besvär och som inte kan bli blockerade av den nätförfrågningsbaserade filtreringsmotorn.<\/p><p>Genom att aktivera denna funktion ökar PetsBlockAdss minnesanvändning.<\/p>",
+    "message": "<p>Det här alternativet aktiverar tolkning och applicering av <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-kompatibla &ldquo;elementdöljningsfilter&rdquo;<\/a>. Dessa filter är i huvudsak kosmetiska. De tjänar till att dölja element som anses vara till visuella besvär och som inte kan bli blockerade av den nätförfrågningsbaserade filtreringsmotorn.<\/p><p>Genom att aktivera denna funktion ökar Ad Blocker Pet Adopters minnesanvändning.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Allmänna kosmetiska filter är de kosmetiska filter som är menade att användas på alla webbplatser.<p>Även om de hanteras effektivt av PetsBlockAds så kan generiska kosmetiska filter bidra till en högre minnes- och processoranvändning på vissa webbplatser, särskilt stora och långlivade.<p>Aktiverar du den här inställning så eliminerar du den extra minnes- och processoranvändningen som allmänna kosmetiska filter medför och minskar också minnesanvändningen för själva PetsBlockAds.<p>Det rekommenderas att du aktiverar denna inställning på mindre kraftfulla enheter.",
+    "message": "<p>Allmänna kosmetiska filter är de kosmetiska filter som är menade att användas på alla webbplatser.<p>Även om de hanteras effektivt av Ad Blocker Pet Adopter så kan generiska kosmetiska filter bidra till en högre minnes- och processoranvändning på vissa webbplatser, särskilt stora och långlivade.<p>Aktiverar du den här inställning så eliminerar du den extra minnes- och processoranvändningen som allmänna kosmetiska filter medför och minskar också minnesanvändningen för själva Ad Blocker Pet Adopter.<p>Det rekommenderas att du aktiverar denna inställning på mindre kraftfulla enheter.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Alla dina inställningar kommer att skrivas över med data som har säkerhetskopierats {{time}} och PetsBlockAds kommer att starta om.\n\nVill du skriva över befintliga inställningar med säkerhetskopierad data?",
+    "message": "Alla dina inställningar kommer att skrivas över med data som har säkerhetskopierats {{time}} och Ad Blocker Pet Adopter kommer att starta om.\n\nVill du skriva över befintliga inställningar med säkerhetskopierad data?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Alla dina inställningar kommer att raderas, och PetsBlockAds kommer att starta om.\n\nÅterställ PetsBlockAds till fabriksinställningar?",
+    "message": "Alla dina inställningar kommer att raderas, och Ad Blocker Pet Adopter kommer att starta om.\n\nÅterställ Ad Blocker Pet Adopter till fabriksinställningar?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Lägg till följande URL till din skräddarsydda filterlista?\n\nTitel: \"{{title}}\"\nURL: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Lägg till följande URL till din skräddarsydda filterlista?\n\nTitel: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "av",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin har förhindrat följande sida från att ladda:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "P.g.a. följande filter",

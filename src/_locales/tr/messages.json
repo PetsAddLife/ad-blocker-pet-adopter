@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Kontrol paneli",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Kontrol paneli",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Ayarlar",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Günlükçü",
+    "message": "Ad Blocker Pet Adopter — Günlükçü",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — Kaynak görüntüleyici",
+    "message": "Ad Blocker Pet Adopter — Kaynak görüntüleyici",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Tıklama: PetsBlockAds'i bu site için devre dışı bırak\/etkinleştir.\n\nCtrl+tıklama: PetsBlockAds'i yalnızca bu sayfada devre dışı bırak.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "Tıklama: Ad Blocker Pet Adopter'i bu site için devre dışı bırak\/etkinleştir.\n\nCtrl+tıklama: Ad Blocker Pet Adopter'i yalnızca bu sayfada devre dışı bırak.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "PetsBlockAds'i bu sitede devre dışı bırakmak için tıklayın.\n\nPetsBlockAds'i yalnızca bu sayfada devre dışı bırakmak için Ctrl+tıklayın.",
+    "message": "Ad Blocker Pet Adopter'i bu sitede devre dışı bırakmak için tıklayın.\n\nAd Blocker Pet Adopter'i yalnızca bu sayfada devre dışı bırakmak için Ctrl+tıklayın.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "PetsBlockAds'i bu sitede etkinleştirmek için tıklayın.",
+    "message": "Ad Blocker Pet Adopter'i bu sitede etkinleştirmek için tıklayın.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Bu seçenek <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\"> Adblock Plus-uyumlu &ldquo;öge gizleme&rdquo; süzgeçlerinin<\/a> işlenmesini ve uygulanmasını sağlar. Bu süzgeçler aslında kozmetiktir, bir web sayfasında görsel rahatsızlık yaratan ve ağ isteği-tabanlı süzme motoru tarafından engellenemeyecek olan ögelerin gizlenmesine yarar.<\/p><p>Bu özelliği etkinleştirmek PetsBlockAds'in bellek kullanımını artırır.<\/p>",
+    "message": "<p>Bu seçenek <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\"> Adblock Plus-uyumlu &ldquo;öge gizleme&rdquo; süzgeçlerinin<\/a> işlenmesini ve uygulanmasını sağlar. Bu süzgeçler aslında kozmetiktir, bir web sayfasında görsel rahatsızlık yaratan ve ağ isteği-tabanlı süzme motoru tarafından engellenemeyecek olan ögelerin gizlenmesine yarar.<\/p><p>Bu özelliği etkinleştirmek Ad Blocker Pet Adopter'in bellek kullanımını artırır.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Genel kozmetik süzgeçler tüm web sayfalarına uygulanan kozmetik süzgeçlerdir.<p>PetsBlockAds tarafından verimli bir şekilde işlenmesine rağmen genel kozmetik süzgeçler bazı web sayfalarında ölçülebilir bellek ve CPU ek yüküne neden olabilir, özellikle büyük ve uzun süreli olanlar.<p>Bu seçeneğin etkinleştirmesi, web sayfalarına eklenen genel kozmetik süzgeçlerin işlenmesinden kaynaklı bellek ve CPU ek yükünü ortadan kaldıracaktır ve ek olarak PetsBlockAds'un kendi bellek izini de azaltacaktır.<p>Daha az güçlü cihazlarda bu seçeneğin etkinleştirilmesi tavsiye edilir.",
+    "message": "<p>Genel kozmetik süzgeçler tüm web sayfalarına uygulanan kozmetik süzgeçlerdir.<p>Ad Blocker Pet Adopter tarafından verimli bir şekilde işlenmesine rağmen genel kozmetik süzgeçler bazı web sayfalarında ölçülebilir bellek ve CPU ek yüküne neden olabilir, özellikle büyük ve uzun süreli olanlar.<p>Bu seçeneğin etkinleştirmesi, web sayfalarına eklenen genel kozmetik süzgeçlerin işlenmesinden kaynaklı bellek ve CPU ek yükünü ortadan kaldıracaktır ve ek olarak Ad Blocker Pet Adopter'un kendi bellek izini de azaltacaktır.<p>Daha az güçlü cihazlarda bu seçeneğin etkinleştirilmesi tavsiye edilir.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -496,7 +496,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Beyaz liste yönergeleri, PetsBlockAds'in devre dışı bırakılması gerektiği web sayfalarını belirler. Satır başına bir girdi. Geçersiz yönergeler sessizce yok sayılır ve yoruma dönüştürülür.",
+    "message": "Beyaz liste yönergeleri, Ad Blocker Pet Adopter'in devre dışı bırakılması gerektiği web sayfalarını belirler. Satır başına bir girdi. Geçersiz yönergeler sessizce yok sayılır ve yoruma dönüştürülür.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Tüm ayarlarınız {{time}} tarihinde yedeklenmiş veriler kullanarak değiştirilecek ve PetsBlockAds yeniden başlayacak. \n\nYedeklenmiş verileriniz kullanılarak var olan tüm ayarlarınız değiştirilsin mi?",
+    "message": "Tüm ayarlarınız {{time}} tarihinde yedeklenmiş veriler kullanarak değiştirilecek ve Ad Blocker Pet Adopter yeniden başlayacak. \n\nYedeklenmiş verileriniz kullanılarak var olan tüm ayarlarınız değiştirilsin mi?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Tüm ayarlarınızı silinecek, ve PetsBlockAds yeniden başlayacak.\n\nPetsBlockAds fabrika ayarlarına sıfırlansın mı?",
+    "message": "Tüm ayarlarınızı silinecek, ve Ad Blocker Pet Adopter yeniden başlayacak.\n\nAd Blocker Pet Adopter fabrika ayarlarına sıfırlansın mı?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Aşağıdaki URL, özel süzgeç listenize eklensin mi?\n\nBaşlık: \"{{title}}\"\nURL: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Aşağıdaki URL, özel süzgeç listenize eklensin mi?\n\nBaşlık: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "kapalı",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "PetsBlockAds aşağıdaki sayfanın yüklenmesini engelledi:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "message": "Ad Blocker Pet Adopter aşağıdaki sayfanın yüklenmesini engelledi:",
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Bu süzgeç nedeniyle",
