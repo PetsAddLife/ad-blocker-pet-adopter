@@ -496,7 +496,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Белый список указывает на каких веб-страницах uBlock Origin должен быть отключен. Одна запись на строку. Некорректные записи будут без предупреждений проигнорированы и закомментированы.",
+    "message": "Белый список указывает на каких веб-страницах Ad Blocker Pet Adopter должен быть отключен. Одна запись на строку. Некорректные записи будут без предупреждений проигнорированы и закомментированы.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -712,7 +712,7 @@
     "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin предотвратил загрузку следующей страницы:",
+    "message": "Ad Blocker Pet Adopter предотвратил загрузку следующей страницы:",
     "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {

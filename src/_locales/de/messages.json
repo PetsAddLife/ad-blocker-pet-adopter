@@ -712,7 +712,7 @@
     "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin hat das Laden der folgenden Seite verhindert:",
+    "message": "Ad Blocker Pet Adopter hat das Laden der folgenden Seite verhindert:",
     "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {

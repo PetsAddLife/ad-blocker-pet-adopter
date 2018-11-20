@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Ad Blocker Pet Adopter",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -496,7 +496,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Lista blanca de páginas web para los cuales se deshabilitará uBlock Origin. Una entrada por línea. Se omitirán nombres de páginas web no válidos.",
+    "message": "Lista blanca de páginas web para los cuales se deshabilitará Ad Blocker Pet Adopter. Una entrada por línea. Se omitirán nombres de páginas web no válidos.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -712,7 +712,7 @@
     "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin impidió la carga de la página:",
+    "message": "Ad Blocker Pet Adopter impidió la carga de la página:",
     "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
