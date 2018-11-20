@@ -52,7 +52,7 @@ var onUserSettingsReceived = function(details) {
     var zipCodeRegex = /^\d{5}$/;
     var postalCodeRegex = /^[ABCEGHJ-NPRSTVXY][0-9][ABCEGHJ-NPRSTV-Z][ ]?[0-9][ABCEGHJ-NPRSTV-Z][0-9]$/i;
 
-    var elAnimals = uDom('[name="animals"]');
+    var elAnimals = uDom('[name="animal"]');
     var elMessageSaved = uDom('.message.saved').nodeAt(0);
     var messageSavedTimeout = null;
     var hasFormChanged = false;
@@ -72,18 +72,12 @@ var onUserSettingsReceived = function(details) {
         });
     
     elAnimals.forEach(function(uNode) {
-        var animal = uNode.attr('value');
+        var value = uNode.attr('value') || null;
 
-        uNode.prop('checked', details.petAdopter.animals.indexOf(animal) > -1);
+        uNode.prop('checked', details.petAdopter.animal == value);
 
         // ensure at least one value is selected
         uNode.on('change', function(e) {
-            var formData = new FormData(e.target.form);
-            var animals = formData.getAll('animals');
-            var isValid = animals.length > 0;
-            var message = (isValid) ? '' : 'At least one animal must be selected.';
-            elAnimals.nodeAt(0).setCustomValidity(message);
-
             hasFormChanged = true;
         });
     });
@@ -97,7 +91,7 @@ var onUserSettingsReceived = function(details) {
 
             changeUserSettings('petAdopter', {
                 location: formData.get('location'),
-                animals: formData.getAll('animals')
+                animal: formData.get('animal') || null
             });
 
             // reset tracking of form changes
