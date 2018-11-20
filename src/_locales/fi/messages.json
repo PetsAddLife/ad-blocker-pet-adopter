@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Hallintapaneeli",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Hallintapaneeli",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Asetukset",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Verkkopyyntöjen loki",
+    "message": "Ad Blocker Pet Adopter — Verkkopyyntöjen loki",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — Elementtien valitsin",
+    "message": "Ad Blocker Pet Adopter — Elementtien valitsin",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Painallus: poista käytöstä\/ota käyttöön PetsBlockAds tällä sivustolla.\n\nCtrl+painallus: poista PetsBlockAds käytöstä vain tällä sivulla.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "Painallus: poista käytöstä\/ota käyttöön Ad Blocker Pet Adopter tällä sivustolla.\n\nCtrl+painallus: poista Ad Blocker Pet Adopter käytöstä vain tällä sivulla.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Klikkaa poistaksesi PetsBlockAds:n käytöstä tällä sivustolla.\n\nCtrl+klikkaus poistaaksesi PetsBlockAds:n käytöstä vain tällä sivulla.",
+    "message": "Klikkaa poistaksesi Ad Blocker Pet Adopter:n käytöstä tällä sivustolla.\n\nCtrl+klikkaus poistaaksesi Ad Blocker Pet Adopter:n käytöstä vain tällä sivulla.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Klikkaa ottaaksesi PetsBlockAds:n käyttöön tällä sivustolla.",
+    "message": "Klikkaa ottaaksesi Ad Blocker Pet Adopter:n käyttöön tällä sivustolla.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Tämä asetus ottaa käyttöön <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-yhteensopivat &ldquo;elementtejä piilottavat&rdquo; suodattimet<\/a>. Nämä suodattimet ovat pääasiassa ehosteita. Ne piilottavat verkkosivuilta elementtejä, jotka ovat visuaalisesti häiritseviä eikä niitä voi estää verkkopyyntöihin pohjautuvalla suodatinmoottorilla. <\/p><p>Tämä ominaisuus nostaa <i>PetsBlockAds<\/i>in muistinkäyttöä.<\/p>",
+    "message": "<p>Tämä asetus ottaa käyttöön <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-yhteensopivat &ldquo;elementtejä piilottavat&rdquo; suodattimet<\/a>. Nämä suodattimet ovat pääasiassa ehosteita. Ne piilottavat verkkosivuilta elementtejä, jotka ovat visuaalisesti häiritseviä eikä niitä voi estää verkkopyyntöihin pohjautuvalla suodatinmoottorilla. <\/p><p>Tämä ominaisuus nostaa <i>Ad Blocker Pet Adopter<\/i>in muistinkäyttöä.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Yleiset kosmeettiset suotimet ovat ne kosmeettiset suotimet joiden on tarkoitus päteä kaikkiin web-sivustoihin.<p>Vaikka PetsBlockAds käsittelee ne tehokkaasti, yleiset kosmeettiset suotimet voivat silti lisätä mitattavaa muisti- ja CPU-ylikuormitusta joillakin web-sivuilla, erityisesti suurilla ja pitkäikäisillä sivuilla.<p>Tämän valinnan salliminen karsii pois web-sivuille lisätyn muisti- ja CPU-ylikuormituksen joka aiheutuu yleisten kosmeettisten suotimien käsittelystä, ja alentaa myös PetsBlockAds sovelluksen muisti-jalanjälkeä.<p>On suositeltavaa sallia tämä vaihtoehto vähemmän tehokkailla laitteilla.",
+    "message": "<p>Yleiset kosmeettiset suotimet ovat ne kosmeettiset suotimet joiden on tarkoitus päteä kaikkiin web-sivustoihin.<p>Vaikka Ad Blocker Pet Adopter käsittelee ne tehokkaasti, yleiset kosmeettiset suotimet voivat silti lisätä mitattavaa muisti- ja CPU-ylikuormitusta joillakin web-sivuilla, erityisesti suurilla ja pitkäikäisillä sivuilla.<p>Tämän valinnan salliminen karsii pois web-sivuille lisätyn muisti- ja CPU-ylikuormituksen joka aiheutuu yleisten kosmeettisten suotimien käsittelystä, ja alentaa myös Ad Blocker Pet Adopter sovelluksen muisti-jalanjälkeä.<p>On suositeltavaa sallia tämä vaihtoehto vähemmän tehokkailla laitteilla.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -496,7 +496,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Lista osoitteista, joissa haluat kytkeä PetsBlockAds:n pois päältä. Kirjoita yksi osoite kullekin riville. Virheelliset säännöt ohitetaan.",
+    "message": "Lista osoitteista, joissa haluat kytkeä Ad Blocker Pet Adopter:n pois päältä. Kirjoita yksi osoite kullekin riville. Virheelliset säännöt ohitetaan.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Kaikki asetuksesi korvataan käyttäen tietoja, jotka on varmuuskopioitu {{time}} ja PetsBlockAds käynnistyy uudelleen.\nPäällekirjoitetaanko kaikki nykyiset asetukset käyttäen varmuuskopioituja tietoja?",
+    "message": "Kaikki asetuksesi korvataan käyttäen tietoja, jotka on varmuuskopioitu {{time}} ja Ad Blocker Pet Adopter käynnistyy uudelleen.\nPäällekirjoitetaanko kaikki nykyiset asetukset käyttäen varmuuskopioituja tietoja?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Kaikki asetuksesi poistetaan ja PetsBlockAds käynnistyy uudelleen. \n\nPalautetaanko PetsBlockAds oletusasetuksiin?",
+    "message": "Kaikki asetuksesi poistetaan ja Ad Blocker Pet Adopter käynnistyy uudelleen. \n\nPalautetaanko Ad Blocker Pet Adopter oletusasetuksiin?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Lisää seuraava URL-osoite mukautettujen suodattimien luetteloihisi?\n\nNimi: \"{{title}}\"\nURL-osoite: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Lisää seuraava URL-osoite mukautettujen suodattimien luetteloihisi?\n\nNimi: \"{{title}}\"\nURL-osoite: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "pois päältä",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin on estänyt seuraavaa sivua lataamasta:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Seuraavan suodattimen takia",

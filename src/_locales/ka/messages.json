@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — სამართავი დაფა",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — სამართავი დაფა",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "პარამეტრები",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — აღმრიცხავი",
+    "message": "Ad Blocker Pet Adopter — აღმრიცხავი",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "PetsBlockAds — რესურსები",
+    "message": "Ad Blocker Pet Adopter — რესურსები",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -53,14 +53,14 @@
   },
   "popupPowerSwitchInfo": {
     "message": "დაწკაპუნება: ამ საიტისთვის uBlock-ის ჩართვა\/გამორთვა.\n\nCtrl+დაწკაპუნება: uBlock-ის მხოლოდ ამ გვერდზე გამორთვა.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "დააწკაპეთ PetsBlockAds-ის გამოსართავად ამ საიტზე.\n\nCtrl+დაწკაპებით PetsBlockAds მხოლოდ ამ გვერდზე გამოირთვება.",
+    "message": "დააწკაპეთ Ad Blocker Pet Adopter-ის გამოსართავად ამ საიტზე.\n\nCtrl+დაწკაპებით Ad Blocker Pet Adopter მხოლოდ ამ გვერდზე გამოირთვება.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "დააწკაპეთ PetsBlockAds-ის ჩასართავად ამ საიტზე.",
+    "message": "დააწკაპეთ Ad Blocker Pet Adopter-ის ჩასართავად ამ საიტზე.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>ეს პარამეტრი <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-სთან თავსებადი &ldquo;ელემენტის დასამალი&rdquo; ფილტრების<\/a> დამუშავებისა და გამოყენების შესაძლებლობას იძლევა. ეს ფილტრები, ძირითადად, იმ ხილული ელემენტების დასამალად გამოიყენება ვებგვერდზე, რომელსაც ქსელის მოთხოვნაზე დაფუძნებული ფილტრაციის საშუალებები ვერ ზღუდავს.<\/p><p>ამ შესაძლებლობის ჩართვის შედეგად გაიზრდება PetsBlockAds-ის მიერ მეხსიერების მოხმარება.<\/p>",
+    "message": "<p>ეს პარამეტრი <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-სთან თავსებადი &ldquo;ელემენტის დასამალი&rdquo; ფილტრების<\/a> დამუშავებისა და გამოყენების შესაძლებლობას იძლევა. ეს ფილტრები, ძირითადად, იმ ხილული ელემენტების დასამალად გამოიყენება ვებგვერდზე, რომელსაც ქსელის მოთხოვნაზე დაფუძნებული ფილტრაციის საშუალებები ვერ ზღუდავს.<\/p><p>ამ შესაძლებლობის ჩართვის შედეგად გაიზრდება Ad Blocker Pet Adopter-ის მიერ მეხსიერების მოხმარება.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>ხილული ელემენტების საერთო ფილტრებია ის, რომელიც ყველა ვებსაიტს ესადაგება.<p>მიუხედავად PetsBlockAds-ის მიერ სიმსუბუქის შენარჩუნების შესაძლებლობისა, ხილული ელემენტების საერთო ფილტრებმა, შესაძლოა მაინც დატვირთოს მეხსიერება და პროცესორი ზოგიერთ ვებსაიტზე, განსაკუთრებით დიდსა და მოძველებულზე.<p>ამ პარამეტრის ჩართვით კი თავიდან აიცილებთ ხილული ელემენტების საერთო ფილტრების შედეგად მეხსიერებისა და პროცესორის და ასევე უშუალოდ PetsBlockAds-ის დატვირთვას.<p>ამ პარამეტრის ჩართვა სასურველია სუსტ მოწყობილობებზე.",
+    "message": "<p>ხილული ელემენტების საერთო ფილტრებია ის, რომელიც ყველა ვებსაიტს ესადაგება.<p>მიუხედავად Ad Blocker Pet Adopter-ის მიერ სიმსუბუქის შენარჩუნების შესაძლებლობისა, ხილული ელემენტების საერთო ფილტრებმა, შესაძლოა მაინც დატვირთოს მეხსიერება და პროცესორი ზოგიერთ ვებსაიტზე, განსაკუთრებით დიდსა და მოძველებულზე.<p>ამ პარამეტრის ჩართვით კი თავიდან აიცილებთ ხილული ელემენტების საერთო ფილტრების შედეგად მეხსიერებისა და პროცესორის და ასევე უშუალოდ Ad Blocker Pet Adopter-ის დატვირთვას.<p>ამ პარამეტრის ჩართვა სასურველია სუსტ მოწყობილობებზე.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "თქვენს ყველა პარამეტრს გადაეწერება {{time}} დროინდელი დამარქაფებული მონაცემები და PetsBlockAds გაეშვება ხელახლა.\n\nნამდვილად გსურთ არსებული პარამეტრების დამარქაფებული მონაცემებით ჩანაცვლება?",
+    "message": "თქვენს ყველა პარამეტრს გადაეწერება {{time}} დროინდელი დამარქაფებული მონაცემები და Ad Blocker Pet Adopter გაეშვება ხელახლა.\n\nნამდვილად გსურთ არსებული პარამეტრების დამარქაფებული მონაცემებით ჩანაცვლება?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "თქვენ მიერ მითითებული ყველა პარამეტრი წაიშლება და PetsBlockAds გაეშვება ხელახლა.\n\nნამდვილად გსურთ PetsBlockAds-ის ნაგულისხმევ პარამეტრებზე დაბრუნება?",
+    "message": "თქვენ მიერ მითითებული ყველა პარამეტრი წაიშლება და Ad Blocker Pet Adopter გაეშვება ხელახლა.\n\nნამდვილად გსურთ Ad Blocker Pet Adopter-ის ნაგულისხმევ პარამეტრებზე დაბრუნება?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: გსურთ შემდეგი URL ბმულის საკუთარ ფილტრის წესებში ჩამატება?\n\nდასახელება: „{{title}}“\nURL: {{url}}",
+    "message": "Ad Blocker Pet Adopter: გსურთ შემდეგი URL ბმულის საკუთარ ფილტრის წესებში ჩამატება?\n\nდასახელება: „{{title}}“\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "გამორთული",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin-მა შეზღუდა მოცემული გვერდის ჩატვირთვა:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "მოცემული ფილტრიდან გამომდინარე",
