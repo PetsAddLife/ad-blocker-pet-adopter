@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock₀",
+    "message": "PetsBlockAds",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Vadības panelis",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "PetsBlockAds — Vadības panelis",
+    "description": "English: PetsBlockAds — Dashboard"
   },
   "settingsPageName": {
     "message": "Iestatījumi",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Tīkla pieprasījumu žurnāls",
+    "message": "PetsBlockAds — Tīkla pieprasījumu žurnāls",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "uBlock₀ — Asset viewer",
+    "message": "PetsBlockAds — Asset viewer",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Klikšķis: atslēgt\/ieslēgt uBlock₀ šajā vietnē.\n\nCtrl+klikšķis: atslēgt uBlock₀ tikai šai lapai.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Klikšķis: atslēgt\/ieslēgt PetsBlockAds šajā vietnē.\n\nCtrl+klikšķis: atslēgt PetsBlockAds tikai šai lapai.",
+    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Noklikšķiniet, lai atslēgtu uBlock₀ šajā vietnē.\n\nCtrl+klikšķis, lai atslēgtu uBlock₀ tikai šajā lapā.",
+    "message": "Noklikšķiniet, lai atslēgtu PetsBlockAds šajā vietnē.\n\nCtrl+klikšķis, lai atslēgtu PetsBlockAds tikai šajā lapā.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Noklikšķiniet, lai ieslēgtu uBlock₀ šajā vietnē.",
+    "message": "Noklikšķiniet, lai ieslēgtu PetsBlockAds šajā vietnē.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Šī opcija iespējo apstrādāt un ieviest ar <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\"> Adblock Plus saderīgus &ldquo;elementu paslēpšanas&rdquo;<\/a> filtrus. Šie filtri ir būtībā kosmētiski, tie kalpo, lai paslēptu tīmekļa lapu elementus, kas tiek uzskatīti par vizuālu traucējumu, un kas nevar būt nobloķēti ar pieprasījumu balstītu filtrēšanas programmu.<\/p><p>Šī līdzekļa iespējošana palielina <i>uBlock₀<\/i> izmantojamās atmiņas daudzumu.<\/p>",
+    "message": "<p>Šī opcija iespējo apstrādāt un ieviest ar <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\"> Adblock Plus saderīgus &ldquo;elementu paslēpšanas&rdquo;<\/a> filtrus. Šie filtri ir būtībā kosmētiski, tie kalpo, lai paslēptu tīmekļa lapu elementus, kas tiek uzskatīti par vizuālu traucējumu, un kas nevar būt nobloķēti ar pieprasījumu balstītu filtrēšanas programmu.<\/p><p>Šī līdzekļa iespējošana palielina <i>PetsBlockAds<\/i> izmantojamās atmiņas daudzumu.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Vispārīgie kosmētikas filtri ir kosmētikas filtri, kurus paredzēts piemērot visās tīmekļvietnēs.<p>Lai gan uBlock ₀ darbojas efektīvi, vispārīgie kosmētikas filtri dažās tīmekļa lapās var ievērojami noslogot atmiņu un centrālo procesoru.<p>Šīs opcijas izmantošana samazinās vispārīgo kosmētikas filtru izmantotās atmiņas un procesora noslodzi kā arī samazinās paša uBlock₀ izmantoto atmiņu.<p>Ieteicams izmantot zemas veiktspējas ierīcēm.",
+    "message": "<p>Vispārīgie kosmētikas filtri ir kosmētikas filtri, kurus paredzēts piemērot visās tīmekļvietnēs.<p>Lai gan uBlock ₀ darbojas efektīvi, vispārīgie kosmētikas filtri dažās tīmekļa lapās var ievērojami noslogot atmiņu un centrālo procesoru.<p>Šīs opcijas izmantošana samazinās vispārīgo kosmētikas filtru izmantotās atmiņas un procesora noslodzi kā arī samazinās paša PetsBlockAds izmantoto atmiņu.<p>Ieteicams izmantot zemas veiktspējas ierīcēm.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Tiks atcelti visi Jūsu iestatījumi, un uBlock₀ tiks restartēts. \nAtjaunot rūpnīcas iestatījumus?",
+    "message": "Tiks atcelti visi Jūsu iestatījumi, un PetsBlockAds tiks restartēts. \nAtjaunot rūpnīcas iestatījumus?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Pievienot sekojošo URL Jūsu lietotāja filtru sarakstiem?\n\nNosaukums: \"{{title}}\"\nURL: {{url}}",
+    "message": "PetsBlockAds: Pievienot sekojošo URL Jūsu lietotāja filtru sarakstiem?\n\nNosaukums: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "izslēgts",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock₀ novērsa šo lapu no ielādes:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "PetsBlockAds novērsa šo lapu no ielādes:",
+    "description": "English: PetsBlockAds has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Sakarā ar šādu filtru",

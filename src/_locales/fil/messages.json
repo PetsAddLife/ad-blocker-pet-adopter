@@ -8,8 +8,8 @@
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Dashboard",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "PetsBlockAds — Dashboard",
+    "description": "English: PetsBlockAds — Dashboard"
   },
   "settingsPageName": {
     "message": "Mga Setting",
@@ -44,7 +44,7 @@
     "description": "appears as tab name in dashboard"
   },
   "assetViewerPageName": {
-    "message": "uBlock₀ — Asset viewer",
+    "message": "PetsBlockAds — Asset viewer",
     "description": "Title for the asset viewer page"
   },
   "advancedSettingsPageName": {
@@ -52,15 +52,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Click: paganahin (o 'wag paganahin) ang uBlock₀ para sa websayt na to.\n\nCtrl+click: 'wag paganahin ang uBlock₀ para lang sa pahina na to.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Click: paganahin (o 'wag paganahin) ang PetsBlockAds para sa websayt na to.\n\nCtrl+click: 'wag paganahin ang PetsBlockAds para lang sa pahina na to.",
+    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Click: paganahin ang uBlock₀ para sa websayt na ito.\n\nCtrl+click: 'wag paganahin ang uBlock₀ para lang sa pahina na to.",
+    "message": "Click: paganahin ang PetsBlockAds para sa websayt na ito.\n\nCtrl+click: 'wag paganahin ang PetsBlockAds para lang sa pahina na to.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Click para paganahin ang uBlock₀ sa websayt na ito.",
+    "message": "Click para paganahin ang PetsBlockAds sa websayt na ito.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>This option enables the parsing and enforcing of <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-compatible &ldquo;element hiding&rdquo; filters<\/a>. These filters are essentially cosmetic, they serve to hide elements in a web page which are deemed to be a visual nuisance, and which can't be blocked by the net request-based filtering engine.<\/p><p>Enabling this feature increases uBlock₀'s memory footprint.<\/p>",
+    "message": "<p>This option enables the parsing and enforcing of <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-compatible &ldquo;element hiding&rdquo; filters<\/a>. These filters are essentially cosmetic, they serve to hide elements in a web page which are deemed to be a visual nuisance, and which can't be blocked by the net request-based filtering engine.<\/p><p>Enabling this feature increases PetsBlockAds's memory footprint.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -360,7 +360,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by uBlock₀, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of uBlock₀ itself.<p>It is recommended to enable this option on less powerful devices.",
+    "message": "<p>Generic cosmetic filters are those cosmetic filters which are meant to apply on all web sites.<p>Though handled efficiently by PetsBlockAds, generic cosmetic filters may still contribute measurable memory and CPU overhead on some web pages, especially for large and long-lived ones.<p>Enabling this option will eliminate the memory and CPU overhead added to web pages as a result of handling generic cosmetic filters, and also lower the memory footprint of PetsBlockAds itself.<p>It is recommended to enable this option on less powerful devices.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "All your settings will be overwritten using data backed up on {{time}}, and uBlock₀ will restart.\n\nOverwrite all existing settings using backed up data?",
+    "message": "All your settings will be overwritten using data backed up on {{time}}, and PetsBlockAds will restart.\n\nOverwrite all existing settings using backed up data?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "All your settings will be removed, and uBlock₀ will restart.\n\nReset uBlock₀ to factory settings?",
+    "message": "All your settings will be removed, and PetsBlockAds will restart.\n\nReset PetsBlockAds to factory settings?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -672,7 +672,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Add the following URL to your custom filter lists?\n\nTitle: \"{{title}}\"\nURL: {{url}}",
+    "message": "PetsBlockAds: Add the following URL to your custom filter lists?\n\nTitle: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -709,11 +709,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "off",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin has prevented the following page from loading:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "description": "English: PetsBlockAds has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Because of the following filter",
