@@ -103,7 +103,7 @@ function toDataURL(url, callback){
     }
 
     return this.fetchNextPet(function(pet) {
-        var photo = pet._photos.pn || pet._photos.x;
+        var photo = pet._photos[0];
         callback({
             type: 'pet',
             imageUrl: photo.$t,
@@ -184,17 +184,18 @@ function toDataURL(url, callback){
                 ? ((pet.media.photos.photo instanceof Array) ? pet.media.photos.photo : [pet.media.photos.photo])
                 : [];
             
-            photos = photos.filter(function(photo) {
-                return ['x', 'pn'].indexOf(photo['@size']) > -1;
-            });
+            photos = photos
+                .filter(function(photo) {
+                    return ['x', 'pn'].indexOf(photo['@size']) > -1;
+                })
+                .sort(function(a, b) {
+                    if (a['@size'] == b['@size']) return 0;
+                    return (a['@size'] == 'pn') ? -1 : 1;
+                });
             
-            if (photos.length < 0) return false;
+            if (photos.length <= 0) return false;
 
-
-            pet._photos = {};
-            photos.forEach(function(photo) {
-                pet._photos[photo['@size']] = photo;
-            });
+            pet._photos = photos;
 
             return true;
         })
