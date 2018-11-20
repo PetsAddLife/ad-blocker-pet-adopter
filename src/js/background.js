@@ -93,7 +93,7 @@ const µBlock = (function() { // jshint ignore:line
             petAdopter: {
                 location: '90210',
                 animals: [
-                    'barnyard',
+                    //'barnyard',
                     'bird',
                     'cat',
                     'dog',
