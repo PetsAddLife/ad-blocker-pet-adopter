@@ -496,7 +496,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Valge nimekirja direktiivid määravad, millistel veebilehtedel peaks uBlock Origin keelatud olema. Üks domeen rea kohta. Sobimatuid direktiive vaikselt ignoreeritakse ja kommenteeritakse välja.",
+    "message": "Valge nimekirja direktiivid määravad, millistel veebilehtedel peaks Ad Blocker Pet Adopter keelatud olema. Üks domeen rea kohta. Sobimatuid direktiive vaikselt ignoreeritakse ja kommenteeritakse välja.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -712,7 +712,7 @@
     "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin on keelanud järgneva lehe laadimise:",
+    "message": "Ad Blocker Pet Adopter on keelanud järgneva lehe laadimise:",
     "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
