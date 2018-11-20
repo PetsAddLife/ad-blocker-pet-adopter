@@ -135,7 +135,7 @@ function toDataURL(url, callback){
 
         this.fetchNextPetXhr = this.fetchPetFind({
             location: this.settings.location,
-            animal: this.settings.animals[0],
+            animal: this.settings.animal,
             count: 100,
             offset: offset
         }, function(pets) {
