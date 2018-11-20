@@ -2,10 +2,10 @@
 #
 # This script assumes a linux environment
 
-echo "*** uBlock0.firefox: Creating web store package"
-echo "*** uBlock0.firefox: Copying files"
+echo "*** AdBlockerPetAdopter.firefox: Creating web store package"
+echo "*** AdBlockerPetAdopter.firefox: Copying files"
 
-DES=dist/build/uBlock0.firefox
+DES=dist/build/AdBlockerPetAdopter.firefox
 rm -rf $DES
 mkdir -p $DES
 
@@ -27,7 +27,7 @@ cp platform/firefox/manifest.json        $DES/
 cp platform/firefox/vapi-usercss.js      $DES/js/
 cp platform/firefox/vapi-webrequest.js   $DES/js/
 
-echo "*** uBlock0.firefox: concatenating content scripts"
+echo "*** AdBlockerPetAdopter.firefox: concatenating content scripts"
 cat $DES/js/vapi-usercss.js > /tmp/contentscript.js
 echo >> /tmp/contentscript.js
 grep -v "^'use strict';$" $DES/js/vapi-usercss.real.js >> /tmp/contentscript.js
@@ -41,18 +41,18 @@ rm $DES/js/vapi-usercss.pseudo.js
 # Firefox/webext-specific
 rm $DES/img/icon_128.png
 
-echo "*** uBlock0.firefox: Generating web accessible resources..."
+echo "*** AdBlockerPetAdopter.firefox: Generating web accessible resources..."
 cp -R src/web_accessible_resources $DES/
 python3 tools/import-war.py $DES/
 
-echo "*** uBlock0.firefox: Generating meta..."
+echo "*** AdBlockerPetAdopter.firefox: Generating meta..."
 python tools/make-firefox-meta.py $DES/
 
 if [ "$1" = all ]; then
-    echo "*** uBlock0.firefox: Creating package..."
+    echo "*** AdBlockerPetAdopter.firefox: Creating package..."
     pushd $DES > /dev/null
     zip ../$(basename $DES).xpi -qr *
     popd > /dev/null
 fi
 
-echo "*** uBlock0.firefox: Package done."
+echo "*** AdBlockerPetAdopter.firefox: Package done."
