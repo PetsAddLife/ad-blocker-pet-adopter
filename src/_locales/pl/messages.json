@@ -32,7 +32,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock — Dziennik żądań sieciowych",
+    "message": "Ad Blocker Pet Adopter — Dziennik żądań sieciowych",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -340,7 +340,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Ogólne filtry kosmetyczne, to filtry które mają być zastosowane na wszystkich stronach internetowych.<p>Choć dobrze obsługiwane przez Ad Blocker Pet Adopter mogą na niektórych stronach, szczególnie dużych i otwartych przez dłuższy czas, przyczyniać się do obciążenia procesora i pamięci operacyjnej.<p>Włącznie tej funkcji wyeliminuje obciążenie procesora i pamięci operacyjnej powodowane stosowaniem ogólnych filtrów kosmetycznych, a także zmniejszy zapotrzebowanie na pamięć samego uBlocka₀.<p>Zaleca się włączenie tej funkcji na mniej wydajnych urządzeniach.",
+    "message": "<p>Ogólne filtry kosmetyczne, to filtry które mają być zastosowane na wszystkich stronach internetowych.<p>Choć dobrze obsługiwane przez Ad Blocker Pet Adopter mogą na niektórych stronach, szczególnie dużych i otwartych przez dłuższy czas, przyczyniać się do obciążenia procesora i pamięci operacyjnej.<p>Włącznie tej funkcji wyeliminuje obciążenie procesora i pamięci operacyjnej powodowane stosowaniem ogólnych filtrów kosmetycznych, a także zmniejszy zapotrzebowanie na pamięć samego Ad Blocker Pet Adoptera₀.<p>Zaleca się włączenie tej funkcji na mniej wydajnych urządzeniach.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -353,7 +353,7 @@
   },
   "3pGroupDefault": {
     "message": "Wbudowane",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Reklamy",

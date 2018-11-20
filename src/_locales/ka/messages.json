@@ -44,7 +44,7 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "დაწკაპუნება: ამ საიტისთვის uBlock-ის ჩართვა\/გამორთვა.\n\nCtrl+დაწკაპუნება: uBlock-ის მხოლოდ ამ გვერდზე გამორთვა.",
+    "message": "დაწკაპუნება: ამ საიტისთვის Ad Blocker Pet Adopter-ის ჩართვა\/გამორთვა.\n\nCtrl+დაწკაპუნება: Ad Blocker Pet Adopter-ის მხოლოდ ამ გვერდზე გამორთვა.",
     "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
@@ -353,7 +353,7 @@
   },
   "3pGroupDefault": {
     "message": "ლოკალური",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "რეკლამები",

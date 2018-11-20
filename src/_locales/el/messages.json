@@ -353,7 +353,7 @@
   },
   "3pGroupDefault": {
     "message": "Τοπικά",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Διαφημίσεις",
@@ -476,7 +476,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Η λίστα σας με τα ονόματα κόμβων (host names) στα οποία το uBlock θα είναι απενεργοποιημένο. Μια καταχώρηση ανά γραμμή. Άκυρα ονόματα κόμβων θα παρακάμπτονται σιωπηλά.",
+    "message": "Η λίστα σας με τα ονόματα κόμβων (host names) στα οποία το Ad Blocker Pet Adopter θα είναι απενεργοποιημένο. Μια καταχώρηση ανά γραμμή. Άκυρα ονόματα κόμβων θα παρακάμπτονται σιωπηλά.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -624,7 +624,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Όλες οι ρυθμίσεις σας θα αντικατασταθούν χρησιμοποιώντας τα δεδομένα του αντιγράφου ασφαλείας που δημιουργήθηκε κατά ημ\/νία και ώρα: {{time}} και θα ακολουθήσει επανεκκίνηση του uBlock.",
+    "message": "Όλες οι ρυθμίσεις σας θα αντικατασταθούν χρησιμοποιώντας τα δεδομένα του αντιγράφου ασφαλείας που δημιουργήθηκε κατά ημ\/νία και ώρα: {{time}} και θα ακολουθήσει επανεκκίνηση του Ad Blocker Pet Adopter.",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -632,7 +632,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Όλες οι ρυθμίσεις σας θα καταργηθούν και θα γίνει επανεκκίνηση του uBlock.\n\nΕπαναφορά του uBlock στις εργοστασιακές ρυθμίσεις;",
+    "message": "Όλες οι ρυθμίσεις σας θα καταργηθούν και θα γίνει επανεκκίνηση του Ad Blocker Pet Adopter.\n\nΕπαναφορά του Ad Blocker Pet Adopter στις εργοστασιακές ρυθμίσεις;",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {

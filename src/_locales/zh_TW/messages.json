@@ -353,7 +353,7 @@
   },
   "3pGroupDefault": {
     "message": "內置",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "廣告",

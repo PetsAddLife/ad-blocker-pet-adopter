@@ -32,7 +32,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock - Talaan",
+    "message": "Ad Blocker Pet Adopter - Talaan",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -353,7 +353,7 @@
   },
   "3pGroupDefault": {
     "message": "Built-in",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Ads",

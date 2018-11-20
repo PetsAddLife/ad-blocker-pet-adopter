@@ -44,11 +44,11 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "दबाए : uBlock को इस साईट में बंद\/चालु करने के लिए।\n\nCtrl के साथ दबाए : uBlock को सिर्फ इस पेज में बंद करने के लिए।",
+    "message": "दबाए : Ad Blocker Pet Adopter को इस साईट में बंद\/चालु करने के लिए।\n\nCtrl के साथ दबाए : Ad Blocker Pet Adopter को सिर्फ इस पेज में बंद करने के लिए।",
     "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "दबाए: uBlock को इस साईट में बंद करने के लिए।\n\nCtrl के साथ दबाए: uBlock को केवल इस पेज में बंद करने के लिए।",
+    "message": "दबाए: Ad Blocker Pet Adopter को इस साईट में बंद करने के लिए।\n\nCtrl के साथ दबाए: Ad Blocker Pet Adopter को केवल इस पेज में बंद करने के लिए।",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
@@ -353,7 +353,7 @@
   },
   "3pGroupDefault": {
     "message": "Built-in",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "विज्ञापन",

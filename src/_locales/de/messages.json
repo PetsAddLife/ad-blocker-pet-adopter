@@ -353,7 +353,7 @@
   },
   "3pGroupDefault": {
     "message": "Lokal",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Werbung",
@@ -624,7 +624,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Alle Einstellungen werden überschrieben und auf den Stand von {{time}} gebracht. Anschließend wird uBlock neu gestartet.\n\nSollen die aktuellen Einstellungen durch das Backup ersetzt werden?",
+    "message": "Alle Einstellungen werden überschrieben und auf den Stand von {{time}} gebracht. Anschließend wird Ad Blocker Pet Adopter neu gestartet.\n\nSollen die aktuellen Einstellungen durch das Backup ersetzt werden?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
