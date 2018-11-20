@@ -352,7 +352,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>این گزینه <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">فیلترهای &ldquo;مخفی‌کردن اشیا&rdquo; سازگار با ادبلاک پلاس<\/a> را تجزیه و اجرا میکند. این فیلتر ها اساساً فنی هستند، آنها اشیاء موجود در صفحه وب را که مزاحم تلقی میشوند و با موتور فیلترینگ شبکه قابل بلاک کردن نیستند را حذف میکنند.<\/p><p>فعال کردن این قابلیت مصرف حافظه ی uBlock را افزایش میدهد.<\/p>",
+    "message": "<p>این گزینه <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">فیلترهای &ldquo;مخفی‌کردن اشیا&rdquo; سازگار با ادبلاک پلاس<\/a> را تجزیه و اجرا میکند. این فیلتر ها اساساً فنی هستند، آنها اشیاء موجود در صفحه وب را که مزاحم تلقی میشوند و با موتور فیلترینگ شبکه قابل بلاک کردن نیستند را حذف میکنند.<\/p><p>فعال کردن این قابلیت مصرف حافظه ی Ad Blocker Pet Adopter را افزایش میدهد.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -373,7 +373,7 @@
   },
   "3pGroupDefault": {
     "message": "محلی",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "تبلیغات",

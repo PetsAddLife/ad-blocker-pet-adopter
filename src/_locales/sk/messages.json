@@ -52,7 +52,7 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Kliknutie: zakázať\/povoliť uBlock pre túto stránku.\n\nCtrl+kliknutie: zakázať Ad Blocker Pet Adopter len pre túto stránku.",
+    "message": "Kliknutie: zakázať\/povoliť Ad Blocker Pet Adopter pre túto stránku.\n\nCtrl+kliknutie: zakázať Ad Blocker Pet Adopter len pre túto stránku.",
     "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
@@ -373,7 +373,7 @@
   },
   "3pGroupDefault": {
     "message": "Vstavané",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Ad Blocker Pet Adopter filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Reklamy",
@@ -656,7 +656,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Všetky vaše nastavenia budú prepísané pomocou dáta zálohovaných dňa {{time}} a uBlock sa reštartne.\n\nPrepísať všetky existujúce nastavenia pomocou zálohovaných dát?",
+    "message": "Všetky vaše nastavenia budú prepísané pomocou dáta zálohovaných dňa {{time}} a Ad Blocker Pet Adopter sa reštartne.\n\nPrepísať všetky existujúce nastavenia pomocou zálohovaných dát?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -664,7 +664,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Všetky vaše nastavenia budú odstránené a uBlock sa reštartne.\n\nObnoviť uBlock na predvolené nastavenia?",
+    "message": "Všetky vaše nastavenia budú odstránené a Ad Blocker Pet Adopter sa reštartne.\n\nObnoviť Ad Blocker Pet Adopter na predvolené nastavenia?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
