@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Kontrolpanel",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "PetsBlockAds — Kontrolpanel",
+    "description": "English: PetsBlockAds — Dashboard"
   },
   "settingsPageName": {
     "message": "Indstillinger",
@@ -32,7 +32,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Loggen",
+    "message": "PetsBlockAds — Loggen",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,15 +44,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Klik: Deaktiver\/aktiver uBlock₀ på dette websted.\n\nCtrl+klik: Deaktiver uBlock₀ kun på denne side.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Klik: Deaktiver\/aktiver PetsBlockAds på dette websted.\n\nCtrl+klik: Deaktiver PetsBlockAds kun på denne side.",
+    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Klik for at deaktivere uBlock₀ på dette websted.\n\nCtrl+klik for at deaktivere uBlock₀ kun på denne side.",
+    "message": "Klik for at deaktivere PetsBlockAds på dette websted.\n\nCtrl+klik for at deaktivere PetsBlockAds kun på denne side.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Klik for at aktivere uBlock₀ på dette websted.",
+    "message": "Klik for at aktivere PetsBlockAds på dette websted.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -332,7 +332,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Denne indstilling gør det muligt at analysere og anvende <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus kompatible &ldquo;element skjuldende&rdquo; filtre<\/a>. Disse filtre er i det væsentlige kosmetiske og har til formål at skjule irriterende visuelle elementer websider, som det ikke er muligt at blokere på andre måder. <\/p><p>Denne indstilling øger uBlock₀'s hukommelsesforbrug.<\/p>",
+    "message": "<p>Denne indstilling gør det muligt at analysere og anvende <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus kompatible &ldquo;element skjuldende&rdquo; filtre<\/a>. Disse filtre er i det væsentlige kosmetiske og har til formål at skjule irriterende visuelle elementer websider, som det ikke er muligt at blokere på andre måder. <\/p><p>Denne indstilling øger PetsBlockAds's hukommelsesforbrug.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -340,7 +340,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Fælles kosmetiske filtre er de kosmetiske filtre der er ment til anvendelse på alle websider. \n<p>Selvom uBlock₀ behandler dem effektivt, kan de fælles kosmetiske filtre medføre forøget brug af hukommelse og CPU på nogle websider, specielt de store og længe-åbnede websider.\n<p>Aktiveres denne funktion vil uBlock₀ ikke længere benytte de fælles kosmetiske filtre, hvilket medfører lavere hukommelses- og CPU-forbrug på hver side, samt mindre overordnet hukommelsesforbrug.\n<p>Det anbefales at aktivere denne funktion på mindre kraftfulde enheder.",
+    "message": "<p>Fælles kosmetiske filtre er de kosmetiske filtre der er ment til anvendelse på alle websider. \n<p>Selvom PetsBlockAds behandler dem effektivt, kan de fælles kosmetiske filtre medføre forøget brug af hukommelse og CPU på nogle websider, specielt de store og længe-åbnede websider.\n<p>Aktiveres denne funktion vil PetsBlockAds ikke længere benytte de fælles kosmetiske filtre, hvilket medfører lavere hukommelses- og CPU-forbrug på hver side, samt mindre overordnet hukommelsesforbrug.\n<p>Det anbefales at aktivere denne funktion på mindre kraftfulde enheder.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -624,7 +624,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Alle dine indstillinger vil blive overskrevet med sikkerhedskopierede data fra {{time}}, hvorefter uBlock₀ vil genstarte.\n\nOverskriv de nuværende indstillinger med data fra sikkerhedskopien?",
+    "message": "Alle dine indstillinger vil blive overskrevet med sikkerhedskopierede data fra {{time}}, hvorefter PetsBlockAds vil genstarte.\n\nOverskriv de nuværende indstillinger med data fra sikkerhedskopien?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -632,7 +632,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Alle dine indstillinger bliver fjernet, og uBlock₀ genstarter.\n\nNulstil uBlock₀ til standardindstillingerne?",
+    "message": "Alle dine indstillinger bliver fjernet, og PetsBlockAds genstarter.\n\nNulstil PetsBlockAds til standardindstillingerne?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -677,11 +677,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "Slået fra",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origins har blokeret den følgende hjemmeside fra at hente:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "description": "English: PetsBlockAds has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "På grund af det følgende filter",
