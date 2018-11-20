@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Ovládací panel",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Ovládací panel",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Nastavení",
@@ -32,7 +32,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Protokol požadavků",
+    "message": "Ad Blocker Pet Adopter — Protokol požadavků",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,15 +44,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Kliknutí: trvale zakázat PetsBlockAds pro celý tento web.\n\nCtrl+kliknutí: zakázat PetsBlockAds pouze pro tuto stránku.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "Kliknutí: trvale zakázat Ad Blocker Pet Adopter pro celý tento web.\n\nCtrl+kliknutí: zakázat Ad Blocker Pet Adopter pouze pro tuto stránku.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Kliknutí: trvale zakázat PetsBlockAds pro celý tento web.\n\nCtrl+kliknutí: zakázat PetsBlockAds pouze pro tuto stránku.",
+    "message": "Kliknutí: trvale zakázat Ad Blocker Pet Adopter pro celý tento web.\n\nCtrl+kliknutí: zakázat Ad Blocker Pet Adopter pouze pro tuto stránku.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Kliknutím povolíte PetsBlockAds pro tento web.",
+    "message": "Kliknutím povolíte Ad Blocker Pet Adopter pro tento web.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -340,7 +340,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Obecné kosmetické filtry jsou kosmetické filtry vytvořené k použití se všemi webovými stránkami.<p>Přestože je PetsBlockAds používá velmi efektivně, kosmetické filtry mohou přispět ke zvýšenému využití operační paměti a procesoru na některých webech, zejména těch velkých a složitých.<p>Zapnutím této volby se lze vyhnout nadbytečnému zatížení paměti i procesoru vyvolaném použitím obecných kosmetických filtrů a rovněž snížit využití paměti samotným PetsBlockAds rozšířením.<p>Na méně výkonných zařízeních je doporučeno tuto volbu povolit.",
+    "message": "<p>Obecné kosmetické filtry jsou kosmetické filtry vytvořené k použití se všemi webovými stránkami.<p>Přestože je Ad Blocker Pet Adopter používá velmi efektivně, kosmetické filtry mohou přispět ke zvýšenému využití operační paměti a procesoru na některých webech, zejména těch velkých a složitých.<p>Zapnutím této volby se lze vyhnout nadbytečnému zatížení paměti i procesoru vyvolaném použitím obecných kosmetických filtrů a rovněž snížit využití paměti samotným Ad Blocker Pet Adopter rozšířením.<p>Na méně výkonných zařízeních je doporučeno tuto volbu povolit.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -624,7 +624,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Všechna nastavení budou přepsána těmi zálohovanými {{time}} a PetsBlockAds se restartuje.\n\nPřepsat všechna existující nastavení zálohovanými daty?",
+    "message": "Všechna nastavení budou přepsána těmi zálohovanými {{time}} a Ad Blocker Pet Adopter se restartuje.\n\nPřepsat všechna existující nastavení zálohovanými daty?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -632,7 +632,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Všechna nastavení budou smazána a PetsBlockAds se restaruje.\n\nObnovit PetsBlockAds do továrního nastavení?",
+    "message": "Všechna nastavení budou smazána a Ad Blocker Pet Adopter se restaruje.\n\nObnovit Ad Blocker Pet Adopter do továrního nastavení?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -640,7 +640,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Přidat následující URL adresu do seznamů vlastních filtrů?\n\nNázev: \"{{title}}\"\nURL: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Přidat následující URL adresu do seznamů vlastních filtrů?\n\nNázev: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -677,11 +677,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "vypnutý",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin zabránil následující stránce v načtení:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Kvůli následujícímu filtru",

@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "PetsBlockAds",
+    "message": "Ad Blocker Pet Adopter",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Контролна табла",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Контролна табла",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Подешавања",
@@ -32,7 +32,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Евиденција",
+    "message": "Ad Blocker Pet Adopter — Евиденција",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -45,7 +45,7 @@
   },
   "popupPowerSwitchInfo": {
     "message": "Клик: онемогући\/омогући µBlock₀ за овај сајт.\n\nCtrl+клик: онемогући\/омогући µBlock₀ само за ову страницу.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
     "message": "Кликните да бисте онемогућили µBlock₀ за овај сајт.\n\nCtrl+клик да бисте онемогућили µBlock₀ само на овој страници.",
@@ -332,7 +332,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Ова опција омогућава рашчлањавање и спровођење <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus компатибилних филтера &ldquo;за сакривање елемената&rdquo; <\/a>. Ови филтери су углавном естетски, они служе за сакривање елемената на веб страници који се сматрају визуелном сметњом и који не могу бити блокирани од стране мрежних захтева базираних на филтрирању.<\/p><p>Омогућавањем ове функције повећава се количина меморије коју PetsBlockAds користи.<\/p>",
+    "message": "<p>Ова опција омогућава рашчлањавање и спровођење <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus компатибилних филтера &ldquo;за сакривање елемената&rdquo; <\/a>. Ови филтери су углавном естетски, они служе за сакривање елемената на веб страници који се сматрају визуелном сметњом и који не могу бити блокирани од стране мрежних захтева базираних на филтрирању.<\/p><p>Омогућавањем ове функције повећава се количина меморије коју Ad Blocker Pet Adopter користи.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -340,7 +340,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Општи естетски филтери су они естетски филтери који су намењени за примену на свим сајтовима.<p>Иако PetsBlockAds ефикасно рукује њима, општи естетски филтери могу довести до повећане потрошње меморије и оптерећења процесора на неким страницама, нарочито на оним великим. <p>Омогућавањем ове опције, елиминисаће се повећана потрошња меморије и оптерећење процесора на страницама као резултат руковања општим естетским филтерима, а такође и смањити меморијски отисак самог PetsBlockAds-а.<p>Препоручује се да се ова опција омогући на мање моћним уређајима.",
+    "message": "<p>Општи естетски филтери су они естетски филтери који су намењени за примену на свим сајтовима.<p>Иако Ad Blocker Pet Adopter ефикасно рукује њима, општи естетски филтери могу довести до повећане потрошње меморије и оптерећења процесора на неким страницама, нарочито на оним великим. <p>Омогућавањем ове опције, елиминисаће се повећана потрошња меморије и оптерећење процесора на страницама као резултат руковања општим естетским филтерима, а такође и смањити меморијски отисак самог Ad Blocker Pet Adopter-а.<p>Препоручује се да се ова опција омогући на мање моћним уређајима.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -624,7 +624,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Сва ваша подешавања ће бити прегажена резервном копијом података сачуваним {{time}} и PetsBlockAds ће се поново покренути.\n\nПрегазити сва постојећа подешавања резервном копијом података?",
+    "message": "Сва ваша подешавања ће бити прегажена резервном копијом података сачуваним {{time}} и Ad Blocker Pet Adopter ће се поново покренути.\n\nПрегазити сва постојећа подешавања резервном копијом података?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -640,7 +640,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Додати следећу УРЛ адресу у вашу прилагођену листу филтера?\n\nНазив: \"{{title}}\"\nУРЛ: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Додати следећу УРЛ адресу у вашу прилагођену листу филтера?\n\nНазив: \"{{title}}\"\nУРЛ: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -677,11 +677,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "искључен",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin је спречио учитавање следеће странице:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "због следећег филтера",

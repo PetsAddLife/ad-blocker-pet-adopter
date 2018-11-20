@@ -9,7 +9,7 @@
   },
   "dashboardName": {
     "message": "µBlock — Панель керування",
-    "description": "English: PetsBlockAds — Dashboard"
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Налаштування",
@@ -32,7 +32,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Журнал мережевих запитів",
+    "message": "Ad Blocker Pet Adopter — Журнал мережевих запитів",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -44,15 +44,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Натиснення: вимикає\/умикає PetsBlockAds для поточного сайту.\n\nCtrl+натиснення: вимикає PetsBlockAds тільки для цієї сторінки.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "message": "Натиснення: вимикає\/умикає Ad Blocker Pet Adopter для поточного сайту.\n\nCtrl+натиснення: вимикає Ad Blocker Pet Adopter тільки для цієї сторінки.",
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Натисніть для вимкнення PetsBlockAds для поточного сайту.\n\nНатисніть з Ctrl для вимкнення PetsBlockAds лише для цієї сторінки.",
+    "message": "Натисніть для вимкнення Ad Blocker Pet Adopter для поточного сайту.\n\nНатисніть з Ctrl для вимкнення Ad Blocker Pet Adopter лише для цієї сторінки.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Натисніть для увімкнення PetsBlockAds для поточного сайту.",
+    "message": "Натисніть для увімкнення Ad Blocker Pet Adopter для поточного сайту.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -332,7 +332,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Ця опція вмикає аналіз та застосування <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-сумісних фільтрів &ldquo;приховання елементв&rdquo; <\/a>. По суті це косметичні фільтри – приховують елементи сторінки, які візуально дратують і не можуть бути блоковані механізмом фільтрації мережевих запитів.<\/p><p>Увімкнення цієї функції збільшує споживання пам’яті <i>PetsBlockAds<\/i>'ом.<\/p>",
+    "message": "<p>Ця опція вмикає аналіз та застосування <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-сумісних фільтрів &ldquo;приховання елементв&rdquo; <\/a>. По суті це косметичні фільтри – приховують елементи сторінки, які візуально дратують і не можуть бути блоковані механізмом фільтрації мережевих запитів.<\/p><p>Увімкнення цієї функції збільшує споживання пам’яті <i>Ad Blocker Pet Adopter<\/i>'ом.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -640,7 +640,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Додати це посилання до списку ваших фільтрів?\n\nНазва: \"{{title}}\"\nПосилання: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Додати це посилання до списку ваших фільтрів?\n\nНазва: \"{{title}}\"\nПосилання: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -677,11 +677,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "Відключений",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock запобіг завантаженню наступної сторінки:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Через наступний фільтр",

@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "PetsBlockAds",
+    "message": "Ad Blocker Pet Adopter",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "PetsBlockAds — Табло",
-    "description": "English: PetsBlockAds — Dashboard"
+    "message": "Ad Blocker Pet Adopter — Табло",
+    "description": "English: Ad Blocker Pet Adopter — Dashboard"
   },
   "settingsPageName": {
     "message": "Настройки",
@@ -32,7 +32,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "PetsBlockAds — Дневник на мрежовите заявки",
+    "message": "Ad Blocker Pet Adopter — Дневник на мрежовите заявки",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -45,7 +45,7 @@
   },
   "popupPowerSwitchInfo": {
     "message": "Щракване: изключва\/включва uBO за този сайт.\n\nCtrl + щракване: изключва uBO само за тази страница.",
-    "description": "English: Click: disable\/enable PetsBlockAds for this site.\n\nCtrl+click: disable PetsBlockAds only on this page."
+    "description": "English: Click: disable\/enable Ad Blocker Pet Adopter for this site.\n\nCtrl+click: disable Ad Blocker Pet Adopter only on this page."
   },
   "popupPowerSwitchInfo1": {
     "message": "Щракване: изключва uBO за този сайт.\n\nCtrl + щракване: изключва uBO само за тази страница.",
@@ -332,7 +332,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Тази опция дава възможност за анализиране и прилагане на <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\"> съвместими с Adblock  Plus филтри за  &ldquo;скриване на елементи&rdquo;<\/a>. Тези филтри, по същество са козметични и служат за скриване на елементи в уеб страница, които се считат за визуално неприятни, и които не могат да бъдат блокирани от системата за филтриране на мрежовите заявки.<\/p><p>Активирането на тази опция увеличава паметта, която  PetsBlockAds използва.<\/p>",
+    "message": "<p>Тази опция дава възможност за анализиране и прилагане на <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\"> съвместими с Adblock  Plus филтри за  &ldquo;скриване на елементи&rdquo;<\/a>. Тези филтри, по същество са козметични и служат за скриване на елементи в уеб страница, които се считат за визуално неприятни, и които не могат да бъдат блокирани от системата за филтриране на мрежовите заявки.<\/p><p>Активирането на тази опция увеличава паметта, която  Ad Blocker Pet Adopter използва.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -340,7 +340,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Общите козметични филтри са тези филтри, които са предназначени за прилагане във всички уеб сайтове.<p>Въпреки, че работят ефективно с PetsBlockAds, те могат да окажат влияние върху използването на паметта и процесора при някои уеб страници, особено големите такива.<p>Активирането на тази опция ще премахне натоварването към тях, като резултат от обработката на общите козметични филтри, също така ще намали и използваната от PetsBlockAds памет.<p>Тази опция е препоръчително да се използва на по-слаби устройства.",
+    "message": "<p>Общите козметични филтри са тези филтри, които са предназначени за прилагане във всички уеб сайтове.<p>Въпреки, че работят ефективно с Ad Blocker Pet Adopter, те могат да окажат влияние върху използването на паметта и процесора при някои уеб страници, особено големите такива.<p>Активирането на тази опция ще премахне натоварването към тях, като резултат от обработката на общите козметични филтри, също така ще намали и използваната от Ad Blocker Pet Adopter памет.<p>Тази опция е препоръчително да се използва на по-слаби устройства.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -476,7 +476,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Списък на вашите адреси, за които PetsBlockAds ще бъде изключен. Един елемент на ред. Невалидните адреси ще бъдат игнорирани.",
+    "message": "Списък на вашите адреси, за които Ad Blocker Pet Adopter ще бъде изключен. Един елемент на ред. Невалидните адреси ще бъдат игнорирани.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -624,7 +624,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Всички ваши настройки ще бъдат презаписани с данни, архивирани на {{time}} и PetsBlockAds ще се рестартира.\n\nПрезаписване на всички съществуващи настройки, използвайки архивираните данни?",
+    "message": "Всички ваши настройки ще бъдат презаписани с данни, архивирани на {{time}} и Ad Blocker Pet Adopter ще се рестартира.\n\nПрезаписване на всички съществуващи настройки, използвайки архивираните данни?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -632,7 +632,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Всички ваши настройки ще бъдат премахнати и PetsBlockAds ще се рестартира.\n\nВръщане на PetsBlockAds към стандартните настройки?",
+    "message": "Всички ваши настройки ще бъдат премахнати и Ad Blocker Pet Adopter ще се рестартира.\n\nВръщане на Ad Blocker Pet Adopter към стандартните настройки?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -640,7 +640,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "PetsBlockAds: Добавяне на следния адрес към вашият списък с потребителски филтри?\n\nИме: \"{{title}}\"\nURL адрес: {{url}}",
+    "message": "Ad Blocker Pet Adopter: Добавяне на следния адрес към вашият списък с потребителски филтри?\n\nИме: \"{{title}}\"\nURL адрес: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -677,11 +677,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "изключен",
-    "description": "Firefox-specific: appears as 'PetsBlockAds (off)'"
+    "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBlock Origin предотврати зареждането на страницата:",
-    "description": "English: PetsBlockAds has prevented the following page from loading:"
+    "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Блокиращ филтър",
