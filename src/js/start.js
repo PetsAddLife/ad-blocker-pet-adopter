@@ -73,9 +73,6 @@ var onAllReady = function() {
 
     µb.contextMenu.update(null);
     µb.firstInstall = false;
-
-    // warm up pet adopter cache
-    µb.petAdopter.start();
 };
 
 /******************************************************************************/
