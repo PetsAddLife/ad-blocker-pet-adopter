@@ -48,7 +48,7 @@ python tools/make-chromium-meta.py $DES/
 if [ "$1" = all ]; then
     echo "*** AdBlockerPetAdopter.chromium: Creating package..."
     pushd $(dirname $DES/) > /dev/null
-    zip AdBlockerPetAdopter.chromium.zip -qr $(basename $DES/)/*
+    zip AdBlockerPetAdopter.chromium.zip -qr *
     popd > /dev/null
 fi
 
