@@ -476,7 +476,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Popis host naziva za koje će uBlock Origin biti onemogućen. Jedan zapis po retku. Nevaljani host nazivi biti će tiho ignorirani.",
+    "message": "Popis host naziva za koje će Ad Blocker Pet Adopter biti onemogućen. Jedan zapis po retku. Nevaljani host nazivi biti će tiho ignorirani.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -680,7 +680,7 @@
     "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin je onemogućio učitavanje sljedeće stranice:",
+    "message": "Ad Blocker Pet Adopter je onemogućio učitavanje sljedeće stranice:",
     "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {

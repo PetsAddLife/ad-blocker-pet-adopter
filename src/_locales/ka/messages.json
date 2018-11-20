@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Ad Blocker Pet Adopter",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -476,7 +476,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "მითითებული გამონაკლისები განსაზღვრავს, თუ რომელ ვებგვერდზე უნდა გამოირთოს uBlock Origin. თითოეული ჩანაწერი ცალკეულ ხაზზე უნდა იყოს. არასწორი მითითებები უგულებელყოფილი იქნება გაფრთხილების გარეშე და აღინიშნება კომენტარად.",
+    "message": "მითითებული გამონაკლისები განსაზღვრავს, თუ რომელ ვებგვერდზე უნდა გამოირთოს Ad Blocker Pet Adopter. თითოეული ჩანაწერი ცალკეულ ხაზზე უნდა იყოს. არასწორი მითითებები უგულებელყოფილი იქნება გაფრთხილების გარეშე და აღინიშნება კომენტარად.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -680,7 +680,7 @@
     "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin-მა შეზღუდა მოცემული გვერდის ჩატვირთვა:",
+    "message": "Ad Blocker Pet Adopter-მა შეზღუდა მოცემული გვერდის ჩატვირთვა:",
     "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {

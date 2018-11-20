@@ -476,7 +476,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Смернице дозвољених домена диктирају на којим веб страницама би uBlock Origin требало бити онемогућен. Један унос по реду. Неисправне смернице ће бити тихо занемарене.",
+    "message": "Смернице дозвољених домена диктирају на којим веб страницама би Ad Blocker Pet Adopter требало бити онемогућен. Један унос по реду. Неисправне смернице ће бити тихо занемарене.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -680,7 +680,7 @@
     "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin је спречио учитавање следеће странице:",
+    "message": "Ad Blocker Pet Adopter је спречио учитавање следеће странице:",
     "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {

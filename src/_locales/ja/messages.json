@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Ad Blocker Pet Adopter",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -680,7 +680,7 @@
     "description": "Firefox-specific: appears as 'Ad Blocker Pet Adopter (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Originは、以下のページの読み込みを防いでいます:",
+    "message": "Ad Blocker Pet Adopterは、以下のページの読み込みを防いでいます:",
     "description": "English: Ad Blocker Pet Adopter has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
