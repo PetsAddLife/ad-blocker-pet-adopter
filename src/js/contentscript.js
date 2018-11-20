@@ -1371,8 +1371,8 @@ vAPI.domPetAdopter = (function() {
         
         vAPI.messaging.send('contentscript', {
             what: 'getRandomPet',
-            width: window.parseInt(parentStyle.width) - window.parseInt(parentStyle.paddingLeft) - window.parseInt(parentStyle.paddingRight),
-            height: window.parseInt(parentStyle.height) - window.parseInt(parentStyle.paddingTop) - window.parseInt(parentStyle.paddingBottom)
+            width: Number.parseInt(parentStyle.width) - Number.parseInt(parentStyle.paddingLeft) - Number.parseInt(parentStyle.paddingRight),
+            height: Number.parseInt(parentStyle.height) - Number.parseInt(parentStyle.paddingTop) - Number.parseInt(parentStyle.paddingBottom)
         }, function(response) {
 
             switch(response.type) {
