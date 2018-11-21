@@ -76,7 +76,7 @@ var µBlock = (function() { // jshint ignore:line
             parseAllABPHideFilters: true,
             prefetchingDisabled: true,
             requestLogMaxEntries: 1000,
-            showIconBadge: true,
+            showIconBadge: false,
             tooltipsDisabled: false,
             webrtcIPAddressHidden: false,
             petAdopter: {
