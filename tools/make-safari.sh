@@ -2,9 +2,9 @@
 #
 # This script assumes an OS X or *NIX environment
 
-echo '*** uBlock0.safariextension: Copying files...'
+echo '*** AdBlockerPetAdopter.safariextension: Copying files...'
 
-DES=dist/build/uBlock0.safariextension
+DES=dist/build/AdBlockerPetAdopter.safariextension
 rm -rf "$DES"
 mkdir -p "$DES"
 
@@ -27,7 +27,7 @@ cp platform/safari/Settings.plist "$DES"/
 cp LICENSE.txt                    "$DES"/
 
 # Use some chromium scripts
-echo -n '*** uBlock0.safariextension: Copying chromium files...'
+echo -n '*** AdBlockerPetAdopter.safariextension: Copying chromium files...'
 chromium_files=(vapi.js is-webrtc-supported.{html,js} options_ui.{html,js})
 for file in "${chromium_files[@]}"; do
     file=platform/chromium/"$file"
@@ -51,7 +51,7 @@ else
 fi
 
 # Use pseudo usercss polyfill
-echo -n "*** uBlock0.safariextension: Concatenating content scripts..."
+echo -n "*** AdBlockerPetAdopter.safariextension: Concatenating content scripts..."
 cat platform/chromium/vapi-usercss.pseudo.js > /tmp/contentscript.js
 # Delete browser check from usercss
 sed "${sedargs[@]}" -e '1,/Edge/{/Edge/d;}' -e '1,/ &&/ s///' /tmp/contentscript.js
@@ -61,16 +61,16 @@ mv /tmp/contentscript.js $DES/js/contentscript.js
 echo ' ✔'
 
 # https://github.com/el1t/uBlock-Safari/issues/4
-echo -n '*** uBlock0.safariextension: Adding extensions to extensionless assets...'
+echo -n '*** AdBlockerPetAdopter.safariextension: Adding extensions to extensionless assets...'
 find "$DES"/assets/thirdparties -type f -regex '.*\/[^.]*' -exec mv {} {}.txt \;
 echo ' ✔'
 
-echo -n '*** uBlock0.safariextension: Generating Info.plist...'
+echo -n '*** AdBlockerPetAdopter.safariextension: Generating Info.plist...'
 python tools/make-safari-meta.py "$DES"/
 echo ' ✔'
 
 # https://github.com/el1t/uBlock-Safari/issues/15
-echo -n '*** uBlock0.safariextension: Correcting ctrl to ⌘ in messages...'
+echo -n '*** AdBlockerPetAdopter.safariextension: Correcting ctrl to ⌘ in messages...'
 for filename in "$DES"/_locales/*.json; do
     sed "${sedargs[@]}" 's/Ctrl/⌘/g' "$filename"
 done
@@ -78,7 +78,7 @@ echo ' ✔'
 
 # Declare __MSG__ scripts inside client-injected.js
 # Beware: this removes all newlines within each script
-echo -n '*** uBlock0.safariextension: Injecting scripts into vapi-client...'
+echo -n '*** AdBlockerPetAdopter.safariextension: Injecting scripts into vapi-client...'
 awkscript='BEGIN { p = 0 }
 /^\/\/ __MSG__/ {
   p = 1
@@ -105,25 +105,25 @@ echo ' ✔'
 # Prepare extension for release
 if [ "$1" = all ]; then
     if [ ! -f dist/certs/key.pem ] || [ ! -f dist/certs/SafariDeveloper.cer ]; then
-        echo '*** uBlock0.safariextension: Cannot sign extension; missing credentials'
+        echo '*** AdBlockerPetAdopter.safariextension: Cannot sign extension; missing credentials'
         exit 1
     fi
-    echo -n '*** uBlock0.safariextension: Creating signed extension...'
+    echo -n '*** AdBlockerPetAdopter.safariextension: Creating signed extension...'
     if ! bash ./tools/make-safari-sign.sh "$DES"; then
         echo
-        echo '*** uBlock0.safariextension: Error signing extension'
+        echo '*** AdBlockerPetAdopter.safariextension: Error signing extension'
         exit 1
     fi
     echo ' ✔'
 
     RELEASES=../uBlock-releases
     if [ -d "$RELEASES" ]; then
-        echo -n '*** uBlock0.safariextension: Copying into releases directory...'
+        echo -n '*** AdBlockerPetAdopter.safariextension: Copying into releases directory...'
         cp "${DES/safariextension/safariextz}" "$RELEASES"
         cp "$DES/../Update.plist" "$RELEASES"
         echo ' ✔'
     fi
 fi
 
-echo '*** uBlock0.safariextension: Done.'
+echo '*** AdBlockerPetAdopter.safariextension: Done.'
 
