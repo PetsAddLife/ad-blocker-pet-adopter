@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Author</key>
-    <string>Raymond Hill/Ellis Tsung</string>
+    <string>Andrej Pavlovic</string>
     <key>Builder Version</key>
     <string>534.57.2</string>
     <key>DeveloperIdentifier</key>
@@ -11,7 +11,7 @@
     <key>CFBundleDisplayName</key>
     <string>{name}</string>
     <key>CFBundleIdentifier</key>
-    <string>com.el1t.uBlock</string>
+    <string>com.petsaddlife.AdBlockerPetAdopter</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleShortVersionString</key>
@@ -95,9 +95,9 @@
             <string>All</string>
         </dict>
     </dict>
-    <key>Update Manifest URL</key>
-    <string>https://raw.githubusercontent.com/el1t/uBlock-Safari-releases/master/Update.plist</string>
+    <key>Update From Gallery</key>
+    <true/>
     <key>Website</key>
-    <string>https://www.github.com/el1t/uBlock-Safari</string>
+    <string>https://petsaddlife.org/initiatives/ad-blocker-pet-adopter/</string>
 </dict>
 </plist>
