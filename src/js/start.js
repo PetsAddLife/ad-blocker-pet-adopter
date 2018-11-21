@@ -260,7 +260,7 @@ var onUserSettingsReady = function(fetched) {
 
     // show dashboard on first install
     if (µb.firstInstall) {
-        chrome.tabs.create({url: "dashboard.html"});
+        vAPI.tabs.open({url: "dashboard.html"});
     }
 
     // initialize pet adopter
