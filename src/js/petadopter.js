@@ -89,7 +89,7 @@ function toDataURL(url, callback){
         });
     }
 
-    if (options.width >= 1200 && options.height >= 110) {
+    if (options.width > 600 && options.height < 300) {
         return toDataURL(vAPI.getURL('/web_accessible_resources/abpa/horizontal_ad.gif?secret=' + vAPI.warSecret), function(dataUrl) {
             callback({
                 type: 'banner',
