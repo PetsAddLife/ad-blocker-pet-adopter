@@ -65,6 +65,9 @@ echo -n '*** AdBlockerPetAdopter.safariextension: Adding extensions to extension
 find "$DES"/assets/thirdparties -type f -regex '.*\/[^.]*' -exec mv {} {}.txt \;
 echo ' ✔'
 
+echo -n "*** AdBlockerPetAdopter.safariextension: Generating web accessible resources..."
+cp -R src/web_accessible_resources $DES/
+
 echo -n '*** AdBlockerPetAdopter.safariextension: Generating Info.plist...'
 python tools/make-safari-meta.py "$DES"/
 echo ' ✔'
