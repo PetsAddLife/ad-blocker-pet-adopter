@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "uBlock Origin",
+    "name": "Ad Blocker Pet Adopter",
     "version": "1.15.11.0",
 
     "commands": {
@@ -27,11 +27,11 @@
             "19": "img/browsericons/icon19.png",
             "38": "img/browsericons/icon38.png"
         },
-        "default_title": "uBlock Origin",
+        "default_title": "Ad Blocker Pet Adopter",
         "default_popup": "popup.html"
     },
 
-    "author": "All uBlock Origin contributors",
+    "author": "Pets Add Life",
     "background": {
         "page": "background.html"
     },
@@ -67,7 +67,7 @@
         "webRequestBlocking",
         "<all_urls>"
     ],
-    "short_name": "uBlock₀",
+    "short_name": "PetsBlockAds",
     "storage": {
         "managed_schema": "managed_storage.json"
     },

@@ -37,7 +37,7 @@ vAPI.safari = true;
 /******************************************************************************/
 
 vAPI.app = {
-    name: 'uBlock Origin',
+    name: 'Ad Blocker Pet Adopter',
     version: safari.extension.displayVersion
 };
 
